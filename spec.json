@@ -1,0 +1,562 @@
+{
+  "meta": {
+    "titre_rncp": "Manager en stratégie et développement de projet digital",
+    "code_rncp": "non spécifié",
+    "bloc": "3",
+    "intitule_bloc": "Piloter un projet digital au service d'un commanditaire",
+    "epreuve": "E3. Pilotage d'un projet digital",
+    "duree_reelle_min": 210,
+    "note_reflexive": false
+  },
+  "moment_narratif": {
+    "date_fictive": "Lundi 9 septembre 2024",
+    "titre_affaire": "Opération Pulse — Refonte de la plateforme client Lumio Health",
+    "situation": "Lumio Health lance la refonte complète de sa plateforme SaaS BtoB dédiée à la gestion des données de stress en entreprise. Le projet, baptisé Pulse, doit être livré en 16 semaines pour coïncider avec le salon VivaTech Paris de janvier 2025. Sonia Ferracci a été nommée cheffe de projet interne. Elle pilote une équipe de 6 personnes (développeurs, UX, content, data) et doit coordonner trois prestataires externes dont Northgate (intégration technique, référent Jakob Rein). Théo Marczak, CEO, joue le rôle de commanditaire stratégique. Une première revue de mi-parcours a révélé des dérives de planning et un désaccord latent entre l'équipe UX et Northgate sur les spécifications d'accessibilité RGAA.",
+    "enjeu_central": "Remettre le projet Pulse sur les rails, arbitrer les tensions techniques et organisationnelles, garantir une livraison conforme aux exigences fonctionnelles, ergonomiques et d'accessibilité, et maintenir la cohésion d'une équipe sous pression dans un calendrier non négociable."
+  },
+  "commanditaire": {
+    "nom": "Théo Marczak",
+    "role": "CEO de Lumio Health — commanditaire stratégique du projet Pulse"
+  },
+  "competences": [
+    {
+      "code": "C.14",
+      "label": "Identifier les modalités et méthodes de conduite de projet appropriées, en tenant compte de la problématique à traiter, du contexte, de l'équipe constituée et des usages du commanditaire, afin de piloter efficacement le projet digital.",
+      "rncp": "Identifier les modalités et méthodes de conduite de projet appropriées, en tenant compte de la problématique à traiter, du contexte, de l'équipe constituée et des usages du commanditaire, afin de piloter efficacement le projet digital.",
+      "placeholder": "Expliquez quelle méthode de conduite de projet vous avez choisie pour Pulse (Agile, Waterfall, hybride…), pourquoi elle est adaptée à ce contexte spécifique, comment vous avez sélectionné et justifié vos outils de gestion (ex. JIRA, Notion, MS Project), et en quoi vos choix sont alignés avec les usages de Théo Marczak et de l'équipe Lumio.",
+      "min_mots": 200,
+      "mots_cles": [
+        "méthode agile",
+        "waterfall",
+        "hybride",
+        "sprints",
+        "JIRA",
+        "Trello",
+        "backlog",
+        "risques",
+        "cadrage",
+        "usages commanditaire"
+      ],
+      "conseil": "Appuyez-vous sur les caractéristiques concrètes du projet Pulse (délai contraint, prestataire externe, équipe mixte) pour justifier chaque choix méthodologique. Évitez les descriptions génériques : montrez que la méthode répond à un risque identifié."
+    },
+    {
+      "code": "C.15",
+      "label": "Favoriser la communication entre les différentes parties prenantes du projet digital, en mobilisant les outils de travail collaboratif et au travers de réunions de projet, en suivant les prestations des fournisseurs et partenaires techniques, afin de garantir la cohésion, la transparence et l'efficacité tout au long du projet.",
+      "rncp": "Favoriser la communication entre les différentes parties prenantes du projet digital, en mobilisant les outils de travail collaboratif et au travers de réunions de projet, en suivant les prestations des fournisseurs et partenaires techniques, afin de garantir la cohésion, la transparence et l'efficacité tout au long du projet.",
+      "placeholder": "Décrivez comment vous avez structuré les flux de communication entre l'équipe interne, Théo Marczak, Northgate (Jakob Rein) et les autres prestataires. Précisez les outils collaboratifs retenus, la fréquence et le format des réunions, et joignez ou résumez au moins un compte rendu de réunion de projet Pulse.",
+      "min_mots": 180,
+      "mots_cles": [
+        "parties prenantes",
+        "compte rendu",
+        "réunion de lancement",
+        "Slack",
+        "Confluence",
+        "weekly",
+        "prestataire",
+        "Northgate",
+        "transparence",
+        "flux d'information"
+      ],
+      "conseil": "Distinguez la communication interne (équipe Lumio) de la communication externe (Northgate, Théo Marczak). Un compte rendu synthétique, même fictif, renforcera significativement la crédibilité de votre production."
+    },
+    {
+      "code": "C.16",
+      "label": "Contrôler le déroulement et l'exécution des différentes phases du projet, en mettant en place les indicateurs de suivi et tableaux de bord permettant l'évaluation de la performance et la maîtrise des coûts et des délais, et en surveillant le respect du planning, afin d'assurer la bonne gestion du projet digital.",
+      "rncp": "Contrôler le déroulement et l'éxecution des différentes phases du projet, en mettant en place les indicateurs de suivi et tableaux de bord permettant l'évaluation de la performance et la maîtrise des coûts et des délais, et en surveillant le respect du planning, afin d'assurer la bonne gestion du projet digital.",
+      "placeholder": "Présentez le tableau de bord de pilotage que vous avez mis en place pour Pulse : quels indicateurs (KPIs) avez-vous retenus pour suivre les délais, les coûts et la qualité ? Comment avez-vous détecté et traité la dérive de planning identifiée en mi-parcours ? Montrez que votre système de reporting permet une décision rapide.",
+      "min_mots": 220,
+      "mots_cles": [
+        "tableau de bord",
+        "KPI",
+        "burn-down",
+        "jalons",
+        "budget",
+        "dérive",
+        "reporting",
+        "GANTT",
+        "variance",
+        "suivi budgétaire"
+      ],
+      "conseil": "Quantifiez systématiquement : nombre de jours de retard constaté, écart budgétaire en %, taux de complétion par sprint. Un tableau de bord sans données chiffrées ne sera pas considéré comme probant par le jury."
+    },
+    {
+      "code": "C.17",
+      "label": "Évaluer le résultat des actions engagées, en organisant des points réguliers avec le commanditaire concernant l'avancée du projet digital, et en identifiant avec lui les éventuelles modifications et réorientations à opérer, afin d'ajuster le projet si nécessaire.",
+      "rncp": "Évaluer le résultat des actions engagées, en organisant des points réguliers avec le commanditaire concernant l'avancée du projet digital, et en identifiant avec lui les éventuelles modifications et réorientations à opérer, afin d'ajuster le projet si nécessaire.",
+      "placeholder": "Expliquez comment vous avez organisé les points de suivi avec Théo Marczak : fréquence, ordre du jour type, livrables partagés. Décrivez une situation concrète où les retours du commanditaire ont conduit à une réorientation du projet Pulse, et précisez les actions correctives déclenchées et leurs effets mesurés.",
+      "min_mots": 180,
+      "mots_cles": [
+        "revue commanditaire",
+        "actions correctives",
+        "réorientation",
+        "indicateurs de performance",
+        "bilan",
+        "ajustement",
+        "décision",
+        "feedback",
+        "comité de pilotage",
+        "COPIL"
+      ],
+      "conseil": "La valeur ajoutée de cette compétence réside dans la boucle feedback-décision-mesure. Montrez explicitement que vous avez mesuré l'efficacité des changements opérés, pas seulement que vous les avez décidés."
+    },
+    {
+      "code": "C.18",
+      "label": "Vérifier la qualité des développements, en organisant les phases de tests permettant d'identifier et résoudre les dysfonctionnements et points de non-conformité, notamment en matière d'accessibilité pour les publics en situation de handicap, afin de s'assurer que le produit final réponde aux spécifications ergonomiques, fonctionnelles et techniques définies.",
+      "rncp": "Vérifier la qualité des développements, en organisant les phases de tests permettant d'identifier et résoudre les dysfonctionnements et points de non-conformité, notamment en matière d'accessibilité pour les publics en situation de handicap, afin de s'assurer que le produit final réponde aux spécifications ergonomiques, fonctionnelles et techniques définies.",
+      "placeholder": "Décrivez le plan de tests mis en place pour la plateforme Pulse : types de tests réalisés (fonctionnels, UX, de charge, d'accessibilité), outils utilisés, rôle de Northgate. Expliquez comment vous avez traité le désaccord sur les spécifications RGAA et quelles corrections ont été apportées de façon itérative.",
+      "min_mots": 200,
+      "mots_cles": [
+        "plan de tests",
+        "RGAA",
+        "accessibilité",
+        "recette",
+        "non-conformité",
+        "bug",
+        "itératif",
+        "UAT",
+        "critères d'acceptation",
+        "handicap"
+      ],
+      "conseil": "L'accessibilité RGAA est un critère d'évaluation explicite du référentiel. Ne l'abordez pas comme une formalité : précisez les critères RGAA testés (niveau AA minimum), les outils utilisés (Axe, WAVE, lecteur d'écran) et les corrections apportées."
+    },
+    {
+      "code": "C.19",
+      "label": "Organiser le travail à produire, en définissant les rôles et périmètres d'intervention des membres de l'équipe interne, en prenant compte des éventuels situation de handicap, en anticipant les éventuels besoins de recrutement, et en instaurant des usages et un mode de fonctionnement respectueux de l'environnement, afin de garantir une organisation efficace et durable.",
+      "rncp": "Organiser le travail à produire, en définissant les rôles et périmètres d'intervention des membres de l'équipe interne, en prenant compte des éventuels situation de handicap, en anticipant les éventuels besoins de recrutement, et en instaurant des usages et un mode de fonctionnement respectueux de l'environnement, afin de garantir une organisation efficace et durable.",
+      "placeholder": "Présentez l'organigramme fonctionnel de l'équipe projet Pulse : qui fait quoi, avec quel périmètre de décision ? Précisez les mesures d'inclusion prises (adaptation de poste, accessibilité des outils), les éventuels besoins de recrutement anticipés, et les pratiques durables instaurées (numérique responsable, télétravail, green IT).",
+      "min_mots": 180,
+      "mots_cles": [
+        "RACI",
+        "organigramme",
+        "rôles",
+        "responsabilités",
+        "périmètre",
+        "inclusion",
+        "handicap",
+        "recrutement",
+        "numérique responsable",
+        "green IT"
+      ],
+      "conseil": "Un tableau RACI ou une matrice des responsabilités est fortement recommandé. N'omettez pas la dimension inclusion : même si aucun membre de votre équipe fictive n'est en situation de handicap, montrez que vous avez anticipé cette éventualité dans votre organisation."
+    },
+    {
+      "code": "C.20",
+      "label": "Coordonner l'action des membres de l'équipe interne, en organisant des réunions régulières de partage d'information et de contrôle des objectifs en termes de qualité et de délai, et en gérant d'éventuelles situations conflictuelles, afin de maintenir la cohésion et l'efficacité de l'équipe.",
+      "rncp": "Coordonner l'action des membres de l'équipe interne, en organisant des réunions régulières de partage d'information et de contrôle des objectifs en termes de qualité et de délai, et en gérant d'éventuelles situations conflictuelles, afin de maintenir la cohésion et l'efficacité de l'équipe.",
+      "placeholder": "Décrivez votre mode de coordination au quotidien sur Pulse : stand-ups, rétrospectives, revues de sprint. Racontez comment vous avez géré la tension entre l'équipe UX de Lumio et Northgate sur les spécifications RGAA : diagnostic de la situation, approche de résolution, résultat obtenu.",
+      "min_mots": 180,
+      "mots_cles": [
+        "stand-up",
+        "rétrospective",
+        "conflit",
+        "médiation",
+        "cohésion",
+        "leadership",
+        "intelligence collective",
+        "sprint review",
+        "escalade",
+        "arbitrage"
+      ],
+      "conseil": "La gestion du conflit UX/Northgate est le cœur narratif de cette compétence. Analysez les causes profondes (ambiguïté des specs, enjeux de responsabilité), pas seulement les symptômes. Le jury évaluera votre posture managériale, pas uniquement la résolution technique."
+    },
+    {
+      "code": "C.21",
+      "label": "Evaluer la performance collective de l'équipe interne, en mettant en place des indicateurs de performance collectifs et individuels, en réalisant régulièrement des bilans, et en facilitant les temps d'échange et de retour d'expérience, afin d'adapter et améliorer les pratiques de travail de l'équipe.",
+      "rncp": "Evaluer la performance collective de l'équipe interne, en mettant en place des indicateurs de performance collectifs et individuels, en réalisant régulièrement des bilans, en facilitant les temps d'échange et de retour d'expérience, afin d'adapter et améliorer les pratiques de travail de l'équipe.",
+      "placeholder": "Présentez le dispositif d'évaluation de la performance mis en place pour l'équipe Pulse : quels indicateurs collectifs et individuels avez-vous définis ? Comment avez-vous organisé les bilans et rétrospectives ? Donnez un exemple concret d'amélioration de pratique issue d'une session de retour d'expérience.",
+      "min_mots": 160,
+      "mots_cles": [
+        "indicateurs collectifs",
+        "OKR",
+        "bilan de sprint",
+        "rétrospective",
+        "retour d'expérience",
+        "amélioration continue",
+        "feedback individuel",
+        "montée en compétences",
+        "satisfaction équipe",
+        "vélocité"
+      ],
+      "conseil": "Différenciez clairement les indicateurs collectifs (vélocité d'équipe, taux de bugs en production, respect des délais) des indicateurs individuels (contributions par personne, qualité des livrables). La suggestion d'améliorations concrètes issues de la rétrospective est un critère d'évaluation explicite."
+    }
+  ],
+  "livrable": {
+    "format": "Dossier de pilotage projet rédigé collectivement (production écrite) + présentation orale individuelle devant le jury. Le dossier inclut : note de cadrage méthodologique, plan de communication, tableau de bord de suivi, compte rendu de COPIL, plan de tests, matrice des responsabilités (RACI), bilan de performance équipe. La présentation orale dure 20 minutes + 10 minutes de questions jury.",
+    "total_mots_min": 520,
+    "note_reflexive_min": 100
+  },
+  "jury_criteres_eliminatoires": [
+    "Absence de définition explicite des rôles, responsabilités et périmètres d'intervention de chaque membre de l'équipe projet (matrice RACI ou équivalent manquante) — éliminatoire C.19",
+    "Absence d'indicateurs de performance chiffrés permettant de mesurer l'impact des actions engagées sur le projet Pulse (délais, coûts, qualité) — éliminatoire C.16 et C.17",
+    "Aucune mention des critères d'accessibilité RGAA dans le plan de tests ou absence de traitement des non-conformités détectées — éliminatoire C.18",
+    "Absence de compte rendu de réunion ou de preuve de communication formalisée avec le commanditaire Théo Marczak — éliminatoire C.15 et C.17",
+    "Méthode de conduite de projet non justifiée au regard du contexte spécifique de Pulse (délai contraint, équipe mixte interne/externe) — éliminatoire C.14",
+    "Absence de description d'un dispositif de gestion d'une situation conflictuelle ou de mécanisme de coordination collective — éliminatoire C.20",
+    "Production individuelle non cohérente avec la production collective du groupe, sans apport personnel identifiable lors de la présentation orale — éliminatoire transverse"
+  ],
+  "documents_fictifs": [
+    {
+      "id": "DOC-01",
+      "type": "Email",
+      "expediteur": "Théo Marczak (CEO)",
+      "objet": "Lancement officiel du projet Pulse — feuille de route et attentes",
+      "role_narratif": "Lettre de mission du commanditaire : Théo Marczak fixe les objectifs stratégiques de la refonte, le budget alloué (320 000 €), la date impérative de livraison (15 janvier 2025 pour VivaTech), et désigne Sonia Ferracci cheffe de projet.",
+      "acte": 1,
+      "generated": {
+        "subject": "Lancement officiel — Projet Pulse | Feuille de route & attentes",
+        "body": "Équipe,\n\nJe vous écris pour officialiser le lancement du projet Pulse, qui démarre aujourd'hui, lundi 9 septembre 2024.\n\nPulse, c'est la refonte complète de notre plateforme SaaS BtoB. Pas une évolution cosmétique — une reconstruction en profondeur, pensée pour nos 180 clients et pour ce que Lumio Health doit devenir. La date de livraison est le 15 janvier 2025, pour une présentation au salon VivaTech Paris. Cette date n'est pas négociable.\n\nBudget alloué : 320 000 €. Je m'attends à ce qu'il soit tenu.\n\nSonia Ferracci est nommée cheffe de projet à compter d'aujourd'hui. Elle a autorité sur les décisions opérationnelles, la coordination des équipes internes et le suivi des prestataires externes. Pour tout ce qui touche au projet Pulse, c'est elle que vous consultez en premier. Je reste disponible pour les arbitrages stratégiques, mais je ne veux pas être le point de passage de chaque désaccord.\n\nJ'attends de Sonia un premier rapport d'étape d'ici le 23 septembre, avec le cadrage complet : périmètre fonctionnel, découpage phases, indicateurs de suivi, et cartographie des risques. On se voit ensuite pour valider ensemble.\n\nLe contexte est exigeant. Je sais que 16 semaines, c'est serré. C'est précisément pour ça que je veux une organisation claire dès le départ — et pas de surprises à mi-parcours.\n\nComptez sur mon soutien.\n\nThéo Marczak\nCEO, Lumio Health\nth.marczak@lumio-health.fr",
+        "preview": "Théo Marczak lance officiellement Pulse, désigne Sonia Ferracci cheffe de projet et fixe le cadre : 320 000 €, livraison le 15 janvier 2025."
+      }
+    },
+    {
+      "id": "DOC-02",
+      "type": "Note de cadrage projet",
+      "expediteur": "Sonia Ferracci (DirMkt / Cheffe de projet Pulse)",
+      "objet": "Note de cadrage Pulse v1.0 — méthode, équipe, planning macro",
+      "role_narratif": "Sonia présente la méthode hybride retenue (Scrum pour les développements, jalons Waterfall pour les livrables contractuels), la composition de l'équipe, le découpage en 5 sprints de 3 semaines, et la matrice RACI initiale. Northgate est positionné comme prestataire d'intégration technique.",
+      "acte": 1,
+      "generated": {
+        "title": "Note de cadrage Pulse v1.0",
+        "kicker": "CADRAGE PROJET",
+        "body": "Lumio Health — Opération Pulse | Note interne | 9 septembre 2024\n\nMÉTHODE RETENUE — HYBRIDE SCRUM / WATERFALL\nLe projet Pulse adopte une approche hybride : Scrum pour les cycles de développement (sprints itératifs, vélocité mesurable, backlog priorisé), Waterfall pour les jalons contractuels opposables aux prestataires. Ce choix tient compte de la contrainte calendaire non négociable (VivaTech, semaine du 20 janvier 2025), de la composition hétérogène de l'équipe et des obligations de reporting vers Northgate Capital.\n\nDÉCOUPAGE — 5 SPRINTS DE 3 SEMAINES\n— Sprint 1 (09/09 → 27/09) : Cadrage technique, audit UX existant, backlog initial\n— Sprint 2 (30/09 → 18/10) : Architecture et maquettes validées, spécifications RGAA formalisées\n— Sprint 3 (21/10 → 08/11) : Développements core platform (authentification, dashboard, exports)\n— Sprint 4 (11/11 → 29/11) : Intégration Northgate, tests fonctionnels, recette accessibilité\n— Sprint 5 (02/12 → 20/12) : Stabilisation, tests UAT clients pilotes, documentation\nSemaine 17 (06/01 → 10/01) : gel de version, déploiement production.\n\nCOMPOSITION DE L'ÉQUIPE\n— Sonia Ferracci : cheffe de projet, point de contact commanditaire\n— 2 développeurs front/back (internes)\n— 1 UX designer (interne)\n— Yassine Morel : content & documentation (RQTH — charge adaptée, pas d'astreinte)\n— 1 data analyst (interne)\n— Northgate (Jakob Rein) : prestataire intégration technique — intervient sprints 3 et 4\n\nMATRICE RACI SYNTHÉTIQUE\n\n| Livrable | Responsable | Approbateur | Consulté | Informé |\n|---|---|---|---|---|\n| Backlog produit | Sonia F. | Théo M. | Équipe UX | Northgate |\n| Spécifications RGAA | UX Designer | Sonia F. | Yassine M. | Northgate |\n| Intégration technique | Northgate | Sonia F. | Dev back | Théo M. |\n| Tests & recette | Dev + UX | Sonia F. | Data analyst | Théo M. |\n| Documentation finale | Yassine M. | Sonia F. | Dev front | Théo M. |\n\nPOINTS DE VIGILANCE\nLes spécifications d'accessibilité RGAA doivent être arrêtées avant la fin du Sprint 2 — tout désaccord non tranché à cette date bloquera l'intégration Northgate. Un point de synchronisation hebdomadaire (mercredi, 30 min) est instauré dès le 11 septembre entre Sonia Ferracci, le référent UX et Jakob Rein.\n\nCette note vaut référentiel de départ. Toute modification de périmètre après le Sprint 1 fait l'objet d'un avenant validé par Théo Marczak.",
+        "preview": "Méthode hybride, 5 sprints de 3 semaines, RACI initial : le cadre de référence du projet Pulse avant démarrage."
+      }
+    },
+    {
+      "id": "DOC-03",
+      "type": "Compte rendu de réunion",
+      "expediteur": "Sonia Ferracci",
+      "objet": "CR COPIL #1 Pulse — Semaine 4 — Bilan sprint 1",
+      "role_narratif": "Premier COPIL avec Théo Marczak : présentation du tableau de bord (vélocité à 78% de l'objectif, 3 user stories non livrées), validation des ajustements de périmètre sur le module analytics, et première alerte sur le retard de Northgate dans la fourniture des spécifications d'intégration API.",
+      "acte": 2,
+      "generated": {
+        "title": "CR COPIL #1 Pulse — Semaine 4 — Bilan sprint 1",
+        "pages": [
+          {
+            "kicker": "COMPTE RENDU OFFICIEL — CONFIDENTIEL INTERNE",
+            "title": "COPIL Pulse #1 — Bilan sprint 1 & ajustements de trajectoire",
+            "byline": "Sonia Ferracci, Cheffe de projet · Lundi 9 septembre 2024",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "Réunion tenue le lundi 9 septembre 2024, de 10h00 à 11h30, en salle Kinetic (siège Lumio Health, Paris 11e). Présents : Théo Marczak (CEO, commanditaire), Sonia Ferracci (cheffe de projet), Camille Ott (partenariats B2B, en observation), Jakob Rein (Northgate Capital, en visioconférence). Objet : premier comité de pilotage du projet Pulse, couvrant le bilan du sprint 1 (semaines 1 à 4), la revue du tableau de bord, les ajustements de périmètre et les alertes en cours."
+              },
+              {
+                "type": "h2",
+                "text": "1. Tableau de bord sprint 1 — Vélocité à 78 %"
+              },
+              {
+                "type": "p",
+                "text": "Sur les 23 user stories planifiées au sprint 1, 20 ont été livrées et validées en recette interne. Trois user stories restent non livrées : US-07 (export CSV du module analytics, dépendance API Northgate), US-12 (notifications push RH, spécifications incomplètes) et US-19 (vue comparative multi-sites, sous-estimée à 3 points, réévaluée à 8). La vélocité mesurée s'établit à 78 % de l'objectif initial, soit un écart de 5 points de story par rapport à la baseline. Ce niveau reste dans la fourchette de tolérance fixée à 75 %, mais ne laisse aucune marge supplémentaire pour le sprint 2."
+              },
+              {
+                "type": "callout",
+                "text": "⚠ ALERTE PLANNING — Northgate : aucune spécification d'intégration API reçue à J+28, alors que la date contractuelle était fixée au J+21 (2 septembre). Ce retard bloque directement US-07 et conditionne 4 user stories du sprint 2. Jakob Rein s'est engagé en séance à livrer un premier draft complet avant le vendredi 13 septembre, 17h00. Point de suivi formel prévu le lundi 16 septembre."
+              },
+              {
+                "type": "h2",
+                "text": "2. Ajustement de périmètre validé — Module Analytics"
+              },
+              {
+                "type": "p",
+                "text": "Théo Marczak a validé la proposition de Sonia Ferracci de réduire le périmètre du module analytics pour le sprint 2 : la fonctionnalité de corrélation stress/absentéisme (initialement prévue en v1.0) est reportée en v1.1, après VivaTech. Cette décision permet de récupérer 13 points de capacité sur le sprint 2 et de sécuriser les fonctionnalités cœur (tableaux de bord RH temps réel, alertes seuils, export PDF). Le périmètre révisé est acté dans le backlog Notion à compter d'aujourd'hui. Camille Ott a confirmé que les 4 clients pilotes sollicités pour les tests utilisateurs (semaine 8) ont été informés de cet ajustement sans réaction négative."
+              },
+              {
+                "type": "h2",
+                "text": "3. Décisions actées & prochaines échéances"
+              },
+              {
+                "type": "p",
+                "text": "Trois décisions sont formellement actées à l'issue de ce COPIL. Premièrement, le report de la corrélation stress/absentéisme en v1.1 est validé par le commanditaire. Deuxièmement, Northgate est mis en demeure (par écrit, courrier Sonia Ferracci → Jakob Rein, envoyé dans la journée) de livrer les spécifications API le 13 septembre au plus tard. Troisièmement, un atelier de cadrage RGAA est planifié le jeudi 12 septembre entre l'équipe UX interne et le référent technique Northgate, afin de résoudre le désaccord persistant sur les niveaux de conformité attendus (AA vs A). Le prochain COPIL est fixé au lundi 7 octobre 2024 (semaine 8), avec revue de mi-parcours complète."
+              },
+              {
+                "type": "callout",
+                "text": "✅ DÉCISION COMMANDITAIRE — Théo Marczak confirme que la date de livraison finale au 20 janvier 2025 (J-5 VivaTech) est non négociable. Il autorise en contrepartie la mobilisation d'un budget de contingence de 8 000 € pour renforcer ponctuellement l'équipe de développement si le retard Northgate ne se résorbe pas avant la semaine 6."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "DOC-04",
+      "type": "Rapport de non-conformité",
+      "expediteur": "Équipe UX Lumio Health",
+      "objet": "Rapport d'audit accessibilité RGAA — sprint 3 — 14 non-conformités détectées",
+      "role_narratif": "L'équipe UX identifie 14 non-conformités RGAA niveau AA sur le prototype Northgate (contrastes insuffisants, navigation clavier défaillante, absence d'alternatives textuelles). Ce document déclenche la crise entre UX et Northgate et force Sonia à arbitrer.",
+      "acte": 3,
+      "generated": {
+        "title": "Rapport d'audit accessibilité RGAA — Sprint 3 — Prototype Northgate",
+        "pages": [
+          {
+            "kicker": "RAPPORT DE NON-CONFORMITÉ — CONFIDENTIEL INTERNE",
+            "title": "14 non-conformités RGAA niveau AA détectées sur le prototype Northgate — Sprint 3",
+            "byline": "Équipe UX Lumio Health (Yassine Morel, référent accessibilité) · 9 septembre 2024",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "Dans le cadre du sprint 3 du projet Pulse, l'équipe UX a conduit un audit accessibilité complet sur le prototype livré par Northgate Capital Integration le 5 septembre 2024 (version 0.3.2 — environnement staging). L'audit a été mené selon le référentiel RGAA 4.1, critères de niveau AA, sur un périmètre couvrant 8 écrans clés : tableau de bord principal, module de visualisation des données de stress, page de configuration des alertes, interface de gestion des utilisateurs et formulaires d'authentification. Résultat : 14 non-conformités sont identifiées, dont 6 bloquantes au regard des exigences définies dans le cahier des charges fonctionnel signé le 12 juillet 2024."
+              },
+              {
+                "type": "h2",
+                "text": "Synthèse des non-conformités par catégorie"
+              },
+              {
+                "type": "p",
+                "text": "CONTRASTES INSUFFISANTS (5 non-conformités — RGAA critère 3.2) : Le ratio de contraste texte/fond est inférieur à 4,5:1 sur les libellés de données secondaires (ratio mesuré : 2,8:1), les légendes de graphiques (3,1:1) et les messages d'état des alertes en mode actif (2,4:1). Les boutons d'action secondaires en gris clair (#ADADAD sur fond blanc) ne respectent pas le seuil minimal. Ces insuffisances impactent directement les utilisateurs présentant une déficience visuelle légère à modérée. — NAVIGATION CLAVIER DÉFAILLANTE (5 non-conformités — RGAA critères 7.1, 7.3) : Le focus clavier est invisible sur l'ensemble des éléments interactifs du tableau de bord (aucun outline CSS défini). La navigation par tabulation ne suit pas un ordre logique dans le formulaire de configuration des alertes (sauts de focus non maîtrisés). Le composant de sélection de période (datepicker) est inaccessible au clavier : aucune interaction possible sans souris. Les modales ne piègent pas correctement le focus : l'utilisateur peut sortir de la modale sans la fermer. — ALTERNATIVES TEXTUELLES ABSENTES (4 non-conformités — RGAA critères 1.1, 1.3) : Les 12 icônes fonctionnelles du module de visualisation (export, filtre, zoom, partage) ne disposent d'aucun attribut alt ni aria-label. Les graphiques SVG de tendance de stress ne comportent pas de description longue (aria-describedby absent). Les images décoratives ne sont pas masquées aux lecteurs d'écran (alt vide ou role presentation non renseignés)."
+              },
+              {
+                "type": "callout",
+                "text": "⚠ POINT BLOQUANT — Yassine Morel, référent accessibilité : Ces 14 non-conformités constituent une violation directe de l'article 5.1 du cahier des charges Pulse (conformité RGAA niveau AA obligatoire à la livraison finale). 6 d'entre elles sont bloquantes pour les utilisateurs en situation de handicap visuel ou moteur. La livraison de la version 0.3.2 en l'état ne peut être validée par l'équipe UX. Une correction est requise avant tout passage en recette."
+              },
+              {
+                "type": "h2",
+                "text": "Désaccord technique avec Northgate — point de friction identifié"
+              },
+              {
+                "type": "p",
+                "text": "Lors des échanges préliminaires du 6 septembre (thread Slack #pulse-tech), l'équipe Northgate a contesté la pertinence de deux critères soulevés, estimant que 'les exigences RGAA ne s'appliquent pas aux interfaces B2B à accès restreint'. Cette interprétation est juridiquement et contractuellement inexacte : le RGAA s'applique dès lors que l'obligation est stipulée dans le contrat — ce qui est le cas ici. Par ailleurs, Yassine Morel signale que les spécifications d'accessibilité transmises à Northgate dès le 19 juillet (document UX-SPEC-ACCESS-v1.2) n'ont manifestement pas été intégrées dans les développements du sprint 3. Ce point doit faire l'objet d'un arbitrage formel par Sonia Ferracci avant reprise du sprint 4."
+              },
+              {
+                "type": "h2",
+                "text": "Recommandations et prochaines étapes"
+              },
+              {
+                "type": "p",
+                "text": "L'équipe UX recommande : (1) Organiser une réunion de cadrage technique UX / Northgate avant le 13 septembre pour traiter les 6 non-conformités bloquantes en priorité. (2) Intégrer un point accessibilité systématique dans la définition of done (DoD) de chaque sprint à compter du sprint 4. (3) Demander à Northgate un plan de correction chiffré et daté sous 48h. (4) Documenter le désaccord d'interprétation dans le registre des risques projet. Le document de référence UX-SPEC-ACCESS-v1.2 et les captures d'écran annotées des 14 non-conformités sont joints au présent rapport (annexes A et B). Ce rapport est transmis à Sonia Ferracci pour arbitrage et à Théo Marczak pour information."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "DOC-05",
+      "type": "Message Slack (canal #projet-pulse-direction)",
+      "expediteur": "Jakob Rein (Northgate)",
+      "objet": "Réponse au rapport RGAA — contestation des critères retenus",
+      "role_narratif": "Jakob Rein conteste la légitimité du rapport UX, arguant que les critères RGAA n'étaient pas explicitement mentionnés dans le cahier des charges initial. Il demande un avenant contractuel avant tout correctif, créant un blocage opérationnel. Révèle une lacune dans le contrat Northgate.",
+      "acte": 3,
+      "generated": {
+        "subject": "Rapport RGAA v1.2 — Position Northgate et demande d'avenant contractuel",
+        "body": "Sonia, Théo,\n\nJ'ai pris connaissance du rapport RGAA v1.2 transmis vendredi par l'équipe UX. Je dois être direct : Northgate ne peut pas engager de correctifs sur la base de ce document en l'état.\n\nNos équipes ont travaillé strictement dans le périmètre défini par le cahier des charges signé le 14 mars 2024. Or, après vérification de notre côté, aucune mention explicite des critères RGAA — ni du niveau de conformité attendu (AA ou AAA) — n'y figure. Les spécifications d'accessibilité identifiées dans ce rapport constituent donc, de notre point de vue, un élargissement de scope non contractualisé.\n\nEngage des développements correctifs sans avenant, c'est exposer Northgate à une charge non budgétée et créer un précédent que nous ne pouvons pas accepter. Je comprends la pression du calendrier, mais ce point ne peut pas être traité comme un ajustement mineur.\n\nJe propose que nos équipes juridiques et techniques se réunissent d'ici jeudi 12 septembre pour cadrer un avenant précisant les critères retenus, les niveaux de conformité exigés, les délais associés et l'impact budgétaire. Sans cela, les développements d'intégration en cours restent suspendus sur ce périmètre.\n\nJe reste disponible pour un appel ce mardi si nécessaire.\n\nJakob Rein\nPartner — Northgate Capital\nj.rein@northgate-capital.com | +33 1 44 XX XX XX",
+        "preview": "Jakob Rein bloque les correctifs RGAA, invoquant l'absence de mention dans le cahier des charges et exigeant un avenant contractuel."
+      }
+    },
+    {
+      "id": "DOC-06",
+      "type": "Plan de tests révisé",
+      "expediteur": "Sonia Ferracci + Camille Ott (B2B)",
+      "objet": "Plan de recette Pulse v2.1 — intégration des tests RGAA et scénarios utilisateurs B2B",
+      "role_narratif": "Suite à l'arbitrage de Sonia (réunion tripartite UX / Northgate / Legal), le plan de tests est refondu : intégration des 14 critères RGAA contestés, ajout de scénarios de test utilisateurs entreprises avec Camille Ott, et définition d'une procédure de correction itérative sur les 2 derniers sprints.",
+      "acte": 4,
+      "generated": {
+        "title": "Plan de recette Pulse v2.1",
+        "pages": [
+          {
+            "kicker": "DOCUMENT INTERNE — CONFIDENTIEL",
+            "title": "Plan de recette Pulse v2.1 — Intégration des tests RGAA et scénarios utilisateurs B2B",
+            "byline": "Sonia Ferracci, Cheffe de projet · Camille Ott, Responsable partenariats B2B · 9 septembre 2024",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "Suite à la réunion tripartite du 6 septembre 2024 (équipe UX, Northgate Capital / intégration technique, département juridique), le plan de recette initial — version 2.0 du 12 août — est formellement révisé. Les désaccords sur le périmètre d'accessibilité RGAA ont été arbitrés : les 14 critères contestés par Northgate sont intégralement maintenus dans le scope de livraison. Ce document constitue la référence contractuelle pour les sprints 7 et 8 (9 sept. → 4 oct. 2024) et engage l'ensemble des parties prenantes."
+              },
+              {
+                "type": "h2",
+                "text": "1. Périmètre de tests RGAA — 14 critères retenus"
+              },
+              {
+                "type": "p",
+                "text": "Les 14 critères RGAA 4.1 suivants font l'objet d'une vérification obligatoire avant toute validation de sprint : images (1.1, 1.3), cadres (2.1), couleurs (3.1, 3.2), multimédia (4.1), tableaux (5.1, 5.4), liens (6.1, 6.2), scripts (7.1, 7.3), éléments obligatoires (8.1) et navigation (12.1). Chaque critère est testé par l'équipe UX interne (référent : Yassine Morel, en coordination avec son aménagement de poste RQTH) et contre-validé par l'auditeur externe Temesis, mandaté le 3 septembre. Un rapport de non-conformité bloquant sera émis sous 48 h en cas d'écart. Northgate s'engage à corriger tout point bloquant dans un délai maximal de 72 h après notification formelle."
+              },
+              {
+                "type": "callout",
+                "text": "Point de vigilance RH : Yassine Morel assure la coordination des tests RGAA côté contenu et accessibilité rédactionnelle. Sa charge est plafonnée à 3 critères par sprint. Sonia Ferracci assure le relais sur les 11 critères restants en binôme avec Temesis."
+              },
+              {
+                "type": "h2",
+                "text": "2. Scénarios utilisateurs B2B — apport Camille Ott"
+              },
+              {
+                "type": "p",
+                "text": "Camille Ott a formalisé 6 scénarios de test représentatifs des usages réels des clients entreprises, construits à partir de retours terrain issus de 12 comptes actifs (dont Decathlon Pro, Malakoff Humanis et SNCF Voyageurs). Ces scénarios couvrent : (1) connexion et gestion des droits administrateur RH, (2) export CSV des données de stress par équipe sur période glissante, (3) paramétrage des alertes de seuil, (4) consultation du tableau de bord manager en mobilité (responsive), (5) accès multi-sites pour groupes >500 collaborateurs, (6) désactivation du compte salarié dans le respect du RGPD. Chaque scénario est associé à un jeu de données fictif anonymisé et à une grille de résultats attendus. Les tests seront exécutés en environnement de recette staging.lumio.io à compter du 16 septembre."
+              },
+              {
+                "type": "h2",
+                "text": "3. Procédure de correction itérative — sprints 7 et 8"
+              },
+              {
+                "type": "p",
+                "text": "Une boucle de correction en deux temps est instaurée pour les 4 dernières semaines du projet. Sprint 7 (9–20 sept.) : exécution des tests RGAA et scénarios B2B, remontée des anomalies dans Jira sous le label PULSE-RECETTE, priorisation selon matrice impact/effort. Sprint 8 (23 sept.–4 oct.) : correction des anomalies bloquantes et majeures, re-test ciblé, gel du code le 4 octobre à 18 h. Toute anomalie mineure non corrigée avant gel fera l'objet d'une fiche de dette technique transmise à Théo Marczak pour arbitrage. Un point de recette hebdomadaire est planifié chaque vendredi à 14 h 30 en format 45 min (Sonia + Camille + lead dev + Jakob Rein pour Northgate)."
+              },
+              {
+                "type": "callout",
+                "text": "Jalons non négociables : gel du code le 4 octobre — recette finale du 7 au 11 octobre — validation commanditaire (Théo Marczak) le 14 octobre. Tout dépassement de ces dates compromet la présentation à VivaTech Paris (janvier 2025)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "DOC-07",
+      "type": "Tableau de bord de pilotage",
+      "expediteur": "Sonia Ferracci",
+      "objet": "Dashboard Pulse — semaine 12 — statut ROUGE sur délais, ORANGE sur budget",
+      "role_narratif": "Le tableau de bord de mi-parcours révèle 8 jours de dérive sur le chemin critique, un dépassement budgétaire de 7% sur le poste intégration technique (Northgate), et un taux de couverture des tests à 64%. Sonia prépare les options d'arbitrage à soumettre à Théo Marczak lors du COPIL #4.",
+      "acte": 4,
+      "generated": {
+        "title": "Dashboard Pulse — Semaine 12",
+        "pages": [
+          {
+            "kicker": "TABLEAU DE BORD PILOTAGE",
+            "title": "Opération Pulse — Statut Semaine 12 : ROUGE délais / ORANGE budget",
+            "byline": "Sonia Ferracci, Cheffe de projet · Lundi 9 septembre 2024",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "Ce tableau de bord synthétise l'état d'avancement du projet Pulse à l'issue de la semaine 12 sur 16. Il est préparé à l'attention de Théo Marczak en vue du COPIL #4 prévu le mercredi 11 septembre. Trois signaux critiques ont été identifiés et nécessitent un arbitrage formel du commanditaire avant la fin de semaine."
+              },
+              {
+                "type": "h2",
+                "text": "1. Avancement global — Indicateurs clés"
+              },
+              {
+                "type": "p",
+                "text": "• Planning (ROUGE) : dérive de 8 jours calendaires sur le chemin critique, imputable principalement au blocage des spécifications d'accessibilité RGAA entre l'équipe UX interne et Northgate (semaines 9–11). Les modules Tableau de bord RH et Export données sont en retard direct. Date de livraison contractuelle : 6 janvier 2025. Date projetée au rythme actuel : 14 janvier 2025.\n• Budget (ORANGE) : dépassement de 7 % sur le poste intégration technique (Northgate Capital), soit +18 200 € par rapport à l'enveloppe initiale de 260 000 €. Cause principale : allers-retours non planifiés sur les specs (12 jours·homme supplémentaires facturés). Les postes UX, développement interne et content restent dans l'enveloppe.\n• Qualité / Tests (ORANGE) : taux de couverture des tests à 64 % (cible semaine 12 : 80 %). 23 anomalies ouvertes, dont 4 bloquantes liées à la conformité RGAA niveau AA (contrastes, navigation clavier, gestion des libellés ARIA)."
+              },
+              {
+                "type": "callout",
+                "text": "⚠ Point de vigilance RH — Yassine Morel (Content Manager, RQTH) a signalé une surcharge depuis la semaine 10. Son périmètre de tests de contenu a été étendu sans validation formelle. Action corrective engagée : redistribution partielle vers le prestataire rédaction externe. À confirmer en COPIL."
+              },
+              {
+                "type": "h2",
+                "text": "2. Options d'arbitrage soumises à Théo Marczak"
+              },
+              {
+                "type": "p",
+                "text": "Option A — Résorption par accélération : mobilisation d'un développeur front-end externe en renfort (estimation : 8 000 à 12 000 € supplémentaires, délai récupéré en 5 à 6 jours). Risque : intégration rapide d'une ressource non familière avec la stack Lumio.\n\nOption B — Périmètre réduit à date fixe : gel des fonctionnalités secondaires (exports PDF personnalisés, module benchmark sectoriel) et livraison du cœur fonctionnel le 6 janvier. Ces éléments seraient poussés en release 1.1 post-VivaTech. Risque : exposition réduite au salon, mais démonstration stable garantie.\n\nOption C — Renégociation partielle avec Northgate : blocage du surplus facturé au-delà du contrat initial jusqu'à résolution formelle du désaccord RGAA. Nécessite validation juridique. Risque relationnel à évaluer avec Jakob Rein."
+              },
+              {
+                "type": "callout",
+                "text": "✅ Recommandation Sonia Ferracci : Option B en priorité, combinée à un point de cadrage technique formel avec Northgate (Jakob Rein) d'ici le 12 septembre pour clore définitivement le désaccord RGAA. La conformité accessibilité est non négociable : Lumio Health s'est engagée sur le niveau AA auprès de ses clients B2B, dont plusieurs ont des obligations légales en tant qu'employeurs."
+              },
+              {
+                "type": "h2",
+                "text": "3. Prochaines échéances critiques"
+              },
+              {
+                "type": "p",
+                "text": "• 11/09 — COPIL #4 : arbitrage commanditaire sur les trois options ci-dessus.\n• 13/09 — Réunion technique Sonia / Jakob Rein : résolution du désaccord RGAA, validation du backlog de tests accessibilité.\n• 20/09 — Objectif couverture tests à 85 % : point qualité avec l'équipe QA interne et Northgate.\n• 27/09 — Gel du périmètre fonctionnel (option B retenue) ou confirmation du renfort externe (option A).\n• 06/01/2025 — Livraison finale Pulse pour VivaTech Paris."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "DOC-08",
+      "type": "Bilan de rétrospective équipe",
+      "expediteur": "Sonia Ferracci + équipe projet Pulse",
+      "objet": "Rétrospective sprint 5 — bilan final et plan d'amélioration continue",
+      "role_narratif": "Rétrospective de clôture du projet Pulse : évaluation des performances collectives (vélocité finale à 91%, taux de non-conformité résiduel à 2%), retours d'expérience sur la gestion du conflit Northgate, suggestions d'amélioration pour les prochains projets (clause RGAA systématique dans les contrats prestataires, revue de risques dès le sprint 0).",
+      "acte": 5,
+      "generated": {
+        "title": "Rétrospective Sprint 5 — Bilan final projet Pulse",
+        "pages": [
+          {
+            "kicker": "RÉTROSPECTIVE CLÔTURE",
+            "title": "Projet Pulse — Bilan final et plan d'amélioration continue",
+            "byline": "Sonia Ferracci & équipe projet Pulse · Vendredi 10 janvier 2025",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "Cette rétrospective clôture officiellement les 16 semaines du projet Pulse. Elle a réuni l'ensemble de l'équipe interne (UX, développement, data, content) le vendredi 10 janvier 2025, soit 48 heures après la livraison finale de la plateforme et à J-7 de la présentation VivaTech. L'objectif : mesurer honnêtement ce qui a fonctionné, ce qui a failli, et formaliser des engagements concrets pour les projets suivants."
+              },
+              {
+                "type": "h2",
+                "text": "Indicateurs de performance finale"
+              },
+              {
+                "type": "p",
+                "text": "Vélocité finale du sprint 5 : 91 % (objectif initial fixé à 85 %). Taux de non-conformité résiduel à la livraison : 2 % (3 anomalies mineures d'affichage sur mobile, sans impact fonctionnel, planifiées en correctif post-lancement semaine 3). Le module accessibilité RGAA atteint le niveau AA sur 97 % des composants auditionnés, après la série de tests conduite du 18 au 23 décembre avec Yassine Morel et le cabinet Accessio. Le budget a été tenu à 98,4 % de l'enveloppe validée par Théo Marczak en septembre."
+              },
+              {
+                "type": "callout",
+                "text": "✦ Résultat clé : vélocité à 91 %, non-conformité résiduelle à 2 %, conformité RGAA AA à 97 %. La plateforme est prête pour VivaTech le 17 janvier 2025."
+              },
+              {
+                "type": "h2",
+                "text": "Retour d'expérience — Gestion du conflit Northgate / équipe UX"
+              },
+              {
+                "type": "p",
+                "text": "Le point de friction le plus structurant du projet a été le désaccord entre l'équipe UX interne et Northgate Capital (référent Jakob Rein) sur les spécifications d'accessibilité RGAA, apparu dès la revue de mi-parcours (semaine 8). Northgate défendait une implémentation partielle jugée suffisante au regard du calendrier ; l'équipe UX maintenait l'exigence d'un niveau AA complet, conformément au cahier des charges initial. La résolution a nécessité une réunion d'arbitrage formelle avec Théo Marczak le 14 novembre, débouchant sur un avenant au contrat Northgate intégrant explicitement les critères RGAA comme condition de recette. Délai absorbé : 5 jours. Leçon retenue : l'absence de clause contractuelle précise dès le départ a rendu cet arbitrage tardif et coûteux en énergie collective."
+              },
+              {
+                "type": "h2",
+                "text": "Plan d'amélioration continue — Engagements pour les prochains projets"
+              },
+              {
+                "type": "p",
+                "text": "Trois mesures sont validées par l'équipe et soumises à Théo Marczak pour application dès le prochain projet digital : (1) Clause RGAA systématique dans tout contrat prestataire, avec niveau cible, méthode d'audit et condition de recette définis contractuellement avant le sprint 0. (2) Revue de risques formalisée dès le sprint 0, incluant une cartographie des zones de désaccord potentielles entre parties prenantes internes et externes. (3) Suivi de charge individuel renforcé : la situation de Yassine Morel, dont les signaux de surmenage ont été détectés tardivement en semaine 10, impose un point de charge hebdomadaire explicite pour chaque membre de l'équipe, avec adaptation des périmètres en cas d'alerte — conformément aux engagements RQTH et aux obligations de l'employeur."
+              },
+              {
+                "type": "callout",
+                "text": "✦ Engagement collectif : ces trois mesures (clause RGAA contractuelle, revue de risques sprint 0, suivi de charge individuel) seront intégrées au kit de démarrage de tout futur projet digital Lumio Health d'ici le 28 février 2025. Responsable : Sonia Ferracci."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "easter_egg": {
+    "type": "whatsapp",
+    "personnages": [
+      "Yassine Morel",
+      "Camille Ott"
+    ],
+    "tension_revelee": "Dans une conversation WhatsApp datée du lendemain du COPIL #3, Yassine confie à Camille qu'il a entendu Théo Marczak dire en off qu'il envisageait de retirer la gestion du projet à Sonia pour la confier directement à Jakob Rein si le retard dépassait 10 jours — une information que Sonia ignore et qui place Camille dans une position de loyauté conflictuelle entre son amitié avec Sonia et sa relation commerciale avec Northgate."
+  },
+  "_enriched": {
+    "pressArticle": {
+      "source": "L'Usine Digitale",
+      "date": "3 septembre 2024",
+      "host": "usine-digitale.fr",
+      "url": "usine-digitale.fr/article/refonte-plateforme-saas-b2b-delais-accessibilite-rgaa",
+      "author": "Mathilde Coquery",
+      "headline": "Refontes de plateformes SaaS B2B : pourquoi les projets déraillent à mi-parcours",
+      "lede": "Entre pressions calendaires, désaccords techniques sur l'accessibilité et coordination d'équipes hybrides, les chefs de projet digitaux naviguent dans des eaux de plus en plus agitées. Tour d'horizon des pièges récurrents et des pratiques qui font la différence.",
+      "body": "La refonte d'une plateforme SaaS B2B n'est jamais un projet anodin. Selon une étude publiée en juillet 2024 par le cabinet Archipel Conseil, 62 % des projets de ce type accusent un retard significatif à mi-parcours, et près d'un tiers dépassent leur budget initial de plus de 20 %. Les causes identifiées sont souvent les mêmes : spécifications initiales insuffisamment figées, turn-over dans les équipes, et sous-estimation de la complexité d'intégration avec des prestataires externes.\n\nL'un des points de friction les plus fréquents concerne aujourd'hui les exigences d'accessibilité numérique. Depuis la transposition de la directive européenne WCAG 2.1 en droit français via le RGAA 4.1, les équipes de développement et les intégrateurs techniques ne partagent pas toujours la même lecture des critères applicables. « On voit régulièrement des désaccords émerger entre l'UX interne et le prestataire technique sur qui porte la responsabilité de la conformité », explique Farid Aouad, consultant en gouvernance de projet chez NovaSprint. « Ces tensions, si elles ne sont pas arbitrées rapidement, peuvent faire perdre deux à trois semaines sur un planning déjà tendu. »\n\nLa question du pilotage en contexte de délai non négociable est particulièrement sensible dans les secteurs où la livraison est indexée sur un événement externe — un salon professionnel, une levée de fonds, un appel d'offres. Dans ces configurations, le chef de projet se retrouve à gérer simultanément la pression du commanditaire stratégique, les attentes des utilisateurs métier et les contraintes opérationnelles de sous-traitants qui ont leurs propres priorités.\n\nLes experts s'accordent sur un point : la réussite de ces projets repose moins sur les outils utilisés que sur la qualité de la communication entre parties prenantes. Les tableaux de bord de suivi, les rituels de synchronisation hebdomadaire et la clarté des RACI sont cités en tête des pratiques différenciantes. « Un bon indicateur, c'est le délai moyen entre la détection d'un écart et la décision corrective. Les équipes performantes le descendent sous 48 heures », note Aouad.\n\nAutre angle mort fréquemment signalé : la prise en compte des situations de handicap au sein même des équipes projet. La loi impose aux employeurs de plus de 20 salariés d'adapter les conditions de travail des collaborateurs reconnus RQTH, y compris dans les phases de sprint intense. Or, dans la réalité des projets sous tension, ces aménagements sont souvent relégués au second plan. Plusieurs DRH interrogés reconnaissent que la période de recadrage de mi-projet est celle où les signaux de surmenage sont les plus fréquents et les moins pris en charge.\n\nPour les medtech et healthtech en particulier, l'enjeu est double : livrer un produit conforme techniquement tout en préservant la crédibilité d'une marque dont le positionnement repose précisément sur le bien-être au travail. Une contradiction que les équipes internes vivent parfois douloureusement."
+    },
+    "fausseUne": {
+      "source": "Les Échos",
+      "host": "lesechos.fr",
+      "rubrique": "Tech & Santé au travail",
+      "kicker": "Medtech",
+      "date": "Lundi 9 septembre 2024",
+      "headline": "Bien-être au travail : la bataille des plateformes SaaS s'accélère avant VivaTech, les retardataires sanctionnés par le marché",
+      "chapeau": "Trois nouveaux acteurs européens — dont le britannique Moodable et l'allemand Kenjo Health — annoncent ce lundi des levées de fonds combinées de 47 millions d'euros pour refondre leurs interfaces et conquérir les directions RH françaises avant le premier trimestre 2025. La fenêtre de tir se referme : les grandes entreprises du CAC 40 finalisent leurs appels d'offres en décembre. Les outsiders qui n'auront pas une plateforme aboutie et accessible à présenter à VivaTech Paris en janvier risquent simplement de ne pas exister aux yeux des acheteurs.",
+      "body": "Le marché français des outils de mesure et de gestion du stress en entreprise, estimé à 340 millions d'euros en 2024 par le cabinet Xerfi, entre dans une phase de consolidation brutale. Selon une étude publiée ce matin par l'Observatoire de la QVT Numérique, 68 % des DRH interrogés déclarent vouloir changer de solution logicielle d'ici mars 2025, invoquant des interfaces vieillissantes, un manque de conformité RGAA et des tableaux de bord jugés insuffisamment lisibles pour leurs équipes managériales. 'Les acheteurs ne veulent plus de preuves de concept ou de démos bêta. Ils veulent du produit fini, auditable, accessible à tous les profils collaborateurs', résume Hélène Coursier, analyste senior chez Xerfi. Dans ce contexte, VivaTech Paris — dont l'édition de janvier 2025 réunira pour la première fois un pavillon Health & Work dédié — est unanimement désigné comme le rendez-vous décisif. Les acteurs qui s'y présenteront avec une plateforme complète et stabilisée capteront la visibilité nécessaire pour signer les contrats-cadres du premier semestre. Les autres, selon plusieurs investisseurs interrogés, 'passeront une saison difficile'. Northgate Capital, fonds anglo-saxon actif sur plusieurs dossiers medtech français, a d'ores et déjà indiqué à ses participations qu'il n'entendait pas financer de nouveaux cycles de développement au-delà de décembre 2024 sans livrable démontrable. La pression sur les équipes produit n'a jamais été aussi forte."
+    },
+    "slackSeed": {
+      "messages": [
+        {
+          "time": "08:47",
+          "text": "Bonjour {{PRENOM}}, bienvenue sur Pulse — content de t'avoir à bord pour ce chantier, on en avait besoin"
+        },
+        {
+          "time": "08:51",
+          "text": "pour te situer rapidement : mi-parcours pas terrible, l'UX et Northgate sont en désaccord sur le RGAA depuis 3 semaines et personne n'a encore tranché — Sonia gère mais elle a besoin d'un appui structuré"
+        },
+        {
+          "time": "08:55",
+          "text": "ce que j'attends de toi d'ici vendredi : une lecture claire de l'état réel du projet (planning, tensions, risques) et une première proposition pour remettre ça sur les rails — on a 16 semaines au total, on ne peut pas se permettre de perdre encore du temps"
+        }
+      ]
+    },
+    "completedAt": "2026-06-15T06:42:05.134Z"
+  }
+}
