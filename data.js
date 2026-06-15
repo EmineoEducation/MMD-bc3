@@ -1,6 +1,6 @@
 // ══════════════════════════════════════════════════════════════
-//  DATA · PAC BC3 · Manager en stratégie et développement de projet digital
-//  Opération Pulse — Refonte de la plateforme client Lumio Health · Lundi 9 septembre 2024
+//  DATA · PAC BC4-I · Manager en stratégie et développement de projet digital
+//  Opération Cortisol Zero — Lancement digital du bracelet Lumio Serenity Pro · 14 mars 2025
 //  Schéma : mailbox[] · dossiers[] · notes[] · guide · finder · calendar · slack
 //  ⚠️  Remplacer les [À COMPLÉTER] par le contenu narratif réel du bloc.
 //  ⚠️  Les placeholders {{PRENOM}} {{NOM}} {{EMAIL_ETUDIANT}} sont substitués à la connexion.
@@ -17,12 +17,12 @@ window.LUMIO_DATA = {
   "mailbox": [
     {
       "id": "DOC-01",
-      "from": "Théo Marczak (CEO)",
+      "from": "Théo Marczak (CEO, Lumio Health)",
       "fromEmail": "theo.marczak@lumio-health.com",
-      "subject": "Lancement officiel — Projet Pulse | Feuille de route & attentes",
-      "date": "Lundi 9 septembre 2024",
-      "preview": "Théo Marczak lance officiellement Pulse, désigne Sonia Ferracci cheffe de projet et fixe le cadre : 320 000 €, livraison le 15 janvier 2025.",
-      "body": "Équipe,\n\nJe vous écris pour officialiser le lancement du projet Pulse, qui démarre aujourd'hui, lundi 9 septembre 2024.\n\nPulse, c'est la refonte complète de notre plateforme SaaS BtoB. Pas une évolution cosmétique — une reconstruction en profondeur, pensée pour nos 180 clients et pour ce que Lumio Health doit devenir. La date de livraison est le 15 janvier 2025, pour une présentation au salon VivaTech Paris. Cette date n'est pas négociable.\n\nBudget alloué : 320 000 €. Je m'attends à ce qu'il soit tenu.\n\nSonia Ferracci est nommée cheffe de projet à compter d'aujourd'hui. Elle a autorité sur les décisions opérationnelles, la coordination des équipes internes et le suivi des prestataires externes. Pour tout ce qui touche au projet Pulse, c'est elle que vous consultez en premier. Je reste disponible pour les arbitrages stratégiques, mais je ne veux pas être le point de passage de chaque désaccord.\n\nJ'attends de Sonia un premier rapport d'étape d'ici le 23 septembre, avec le cadrage complet : périmètre fonctionnel, découpage phases, indicateurs de suivi, et cartographie des risques. On se voit ensuite pour valider ensemble.\n\nLe contexte est exigeant. Je sais que 16 semaines, c'est serré. C'est précisément pour ça que je veux une organisation claire dès le départ — et pas de surprises à mi-parcours.\n\nComptez sur mon soutien.\n\nThéo Marczak\nCEO, Lumio Health\nth.marczak@lumio-health.fr",
+      "subject": "URGENT — Brief stratégie digitale Serenity Pro pour Northgate",
+      "date": "14 mars 2025",
+      "preview": "Jakob Rein attend le dossier complet le 24 mars — 2,3 M€ en jeu, stratégie digitale Serenity Pro à boucler en 10 jours.",
+      "body": "Sonia,\n\nJakob Rein a confirmé ce matin : la décision sur les 2,3 M€ tombe dans 10 jours. Pas 12, pas 11. On présente le 24 mars, dossier complet, chiffres vérifiables.\n\nIl veut une stratégie digitale intégrée pour le lancement du Serenity Pro — France + Europe du Nord — avec des projections de ROI claires, une architecture e-commerce documentée et une conformité data irréprochable. Son mot exact : « irréprochable ». Le RGPD, l'accessibilité, tout ça doit être traité, pas survolé. Yassine a remonté des alertes RGAA sur nos contenus actuels — il faut que ce soit réglé avant qu'on montre quoi que ce soit à Northgate.\n\nSur le fond : je veux une stratégie B2C ambitieuse, acquisition large, visibilité européenne. Camille va insister pour qu'on réserve une part significative du budget aux DRH grands comptes — elle n'a pas tort sur le potentiel, mais Northgate finance une histoire de croissance scalable, pas un prolongement de notre base B2B existante. Trouve l'équilibre, mais qu'on soit clairs sur la priorité.\n\nTu pilotes la task force. Tu as carte blanche sur l'organisation, mais je veux un point intermédiaire jeudi 20 mars à 9h pour valider les arbitrages budgétaires avant mise en forme finale.\n\nMobilise ce qu'il faut. On n'a pas le droit de rater ça.\n\nThéo\nThéo Marczak — CEO, Lumio Health\n+33 6 12 34 56 78 | theo.marczak@lumiohealth.fr",
       "avatar": "TM",
       "avatarColor": "#134547",
       "unread": true,
@@ -32,15 +32,15 @@ window.LUMIO_DATA = {
       ]
     },
     {
-      "id": "DOC-05",
-      "from": "Jakob Rein (Northgate)",
+      "id": "DOC-06",
+      "from": "Jakob Rein (Partenaire Northgate Capital)",
       "fromEmail": "jakob.rein@lumio-health.com",
-      "subject": "Rapport RGAA v1.2 — Position Northgate et demande d'avenant contractuel",
-      "date": "Lundi 9 septembre 2024",
-      "preview": "Jakob Rein bloque les correctifs RGAA, invoquant l'absence de mention dans le cahier des charges et exigeant un avenant contractuel.",
-      "body": "Sonia, Théo,\n\nJ'ai pris connaissance du rapport RGAA v1.2 transmis vendredi par l'équipe UX. Je dois être direct : Northgate ne peut pas engager de correctifs sur la base de ce document en l'état.\n\nNos équipes ont travaillé strictement dans le périmètre défini par le cahier des charges signé le 14 mars 2024. Or, après vérification de notre côté, aucune mention explicite des critères RGAA — ni du niveau de conformité attendu (AA ou AAA) — n'y figure. Les spécifications d'accessibilité identifiées dans ce rapport constituent donc, de notre point de vue, un élargissement de scope non contractualisé.\n\nEngage des développements correctifs sans avenant, c'est exposer Northgate à une charge non budgétée et créer un précédent que nous ne pouvons pas accepter. Je comprends la pression du calendrier, mais ce point ne peut pas être traité comme un ajustement mineur.\n\nJe propose que nos équipes juridiques et techniques se réunissent d'ici jeudi 12 septembre pour cadrer un avenant précisant les critères retenus, les niveaux de conformité exigés, les délais associés et l'impact budgétaire. Sans cela, les développements d'intégration en cours restent suspendus sur ce périmètre.\n\nJe reste disponible pour un appel ce mardi si nécessaire.\n\nJakob Rein\nPartner — Northgate Capital\nj.rein@northgate-capital.com | +33 1 44 XX XX XX",
+      "subject": "Due diligence marketing Serenity Pro — 6 points bloquants avant décision Northgate",
+      "date": "14 mars 2025",
+      "preview": "Jakob Rein pose 6 questions bloquantes sur RGPD, CAC/LTV, positionnement et plan de contingence avant de valider les 2,3 M€.",
+      "body": "Sonia,\n\nAvant toute validation de notre engagement sur les 2,3 M€, j'ai besoin de réponses écrites et documentées sur six points. Je les attends d'ici le 21 mars, format synthèse + pièces justificatives.\n\n1. Conformité RGPD / tracking : Quel est le statut exact de votre CMP ? Avez-vous un DPO désigné ? Sur quels fondements juridiques reposent la collecte des données biométriques via le Serenity Pro et le retargeting publicitaire prévu ?\n\n2. Modèle CAC / LTV à 18 mois : Je veux voir vos hypothèses chiffrées canal par canal — paid social, SEO, B2B direct — avec une LTV calculée sur 18 mois et un ratio LTV/CAC cible explicitement justifié. Les benchmarks sectoriels que vous utilisez doivent être sourcés.\n\n3. Différenciation vs Garmin et Fitbit : Sur quels attributs précis positionnez-vous le Serenity Pro ? \"Mesure du stress\" n'est pas une réponse suffisante — Garmin et Fitbit couvrent déjà ce territoire dans leur communication. Je veux une matrice de positionnement.\n\n4. Stratégie de rétention post-achat : Quels mécanismes concrets — onboarding, programme de fidélité, upsell abonnement, NPS actionnable — activez-vous après la première transaction ? Le taux de churn estimé à 12 mois doit figurer dans votre réponse.\n\n5. Reporting temps réel : Quel outil, quel tableau de bord, quels KPIs suivis à quelle fréquence ? Northgate s'attend à un accès en lecture sur un dashboard opérationnel, pas à des reportings PDF mensuels.\n\n6. Plan de contingence si ROAS < 1,5x à J+90 : Si les campagnes paid n'atteignent pas ce seuil 90 jours après le lancement, quelles actions correctrices sont déjà arbitrées — réallocation budgétaire, changement de ciblage, suspension de certains canaux ? J'ai besoin d'un scénario dégradé formalisé, pas d'une promesse de réactivité.\n\nJe note par ailleurs que plusieurs de ces éléments auraient dû figurer dans le dossier initial transmis la semaine dernière. Ce n'était pas le cas. La décision du comité est conditionnée à la qualité de vos réponses sur ces six points — pas à votre calendrier interne.\n\nDisponible pour un call de 30 minutes le 24 mars si nécessaire.\n\nJakob Rein\nPartner — Northgate Capital\njakob.rein@northgate-capital.eu\n+33 1 44 XX XX XX",
       "avatar": "JR",
-      "avatarColor": "#5b3a8a",
+      "avatarColor": "#7a756c",
       "unread": false,
       "flagged": false
     }
@@ -49,51 +49,43 @@ window.LUMIO_DATA = {
     {
       "id": "DOC-03",
       "type": "rich",
-      "tab": "COMPTE",
-      "title": "CR COPIL #1 Pulse — Semaine 4 — Bilan sprint 1",
+      "tab": "RAPPORT_",
+      "title": "Audit accessibilité RGAA — Site et contenus actuels Lumio Health",
       "accent": "#1a6641",
-      "runningHead": "COMPTE RENDU DE RÉUNION",
+      "runningHead": "RAPPORT_AUDIT",
       "pages": [
         {
-          "kicker": "COMPTE RENDU OFFICIEL — CONFIDENTIEL INTERNE",
-          "title": "COPIL Pulse #1 — Bilan sprint 1 & ajustements de trajectoire",
-          "byline": "Sonia Ferracci, Cheffe de projet · Lundi 9 septembre 2024",
+          "kicker": "RAPPORT INTERNE — CONFIDENTIEL",
+          "title": "Audit accessibilité RGAA — Site et contenus actuels Lumio Health",
+          "byline": "Yassine Morel, Content Manager · 14 mars 2025",
           "blocks": [
             {
               "type": "p",
-              "text": "Réunion tenue le lundi 9 septembre 2024, de 10h00 à 11h30, en salle Kinetic (siège Lumio Health, Paris 11e). Présents : Théo Marczak (CEO, commanditaire), Sonia Ferracci (cheffe de projet), Camille Ott (partenariats B2B, en observation), Jakob Rein (Northgate Capital, en visioconférence). Objet : premier comité de pilotage du projet Pulse, couvrant le bilan du sprint 1 (semaines 1 à 4), la revue du tableau de bord, les ajustements de périmètre et les alertes en cours."
+              "text": "Dans le cadre de la préparation du lancement Serenity Pro et à la demande de Sonia Ferracci, j'ai conduit un audit express du site lumiohealth.fr et des contenus digitaux associés (landing pages, ressources blog, vidéos produit) sur la période du 10 au 13 mars 2025. L'audit s'appuie sur le référentiel RGAA 4.1, obligatoire pour les organismes publics et fortement recommandé pour tout acteur souhaitant distribuer en Europe du Nord (Suède, Norvège, Danemark — marchés cibles du lancement). Résultat : 8 non-conformités critiques sont identifiées. Elles doivent être corrigées avant toute activation de campagne."
             },
             {
               "type": "h2",
-              "text": "1. Tableau de bord sprint 1 — Vélocité à 78 %"
+              "text": "Non-conformités critiques identifiées"
             },
             {
               "type": "p",
-              "text": "Sur les 23 user stories planifiées au sprint 1, 20 ont été livrées et validées en recette interne. Trois user stories restent non livrées : US-07 (export CSV du module analytics, dépendance API Northgate), US-12 (notifications push RH, spécifications incomplètes) et US-19 (vue comparative multi-sites, sous-estimée à 3 points, réévaluée à 8). La vélocité mesurée s'établit à 78 % de l'objectif initial, soit un écart de 5 points de story par rapport à la baseline. Ce niveau reste dans la fourchette de tolérance fixée à 75 %, mais ne laisse aucune marge supplémentaire pour le sprint 2."
+              "text": "1. CONTRASTES INSUFFISANTS (Critère 3.2) — Le ratio de contraste entre le texte gris clair (#9E9E9E) et le fond blanc sur la homepage est de 2,8:1, bien en dessous du seuil RGAA de 4,5:1 pour le texte courant. Concerne notamment les légendes de visuels produit et les CTA secondaires. / 2. ABSENCE D'ATTRIBUTS ALT SUR LES IMAGES FONCTIONNELLES (Critère 1.1) — 34 images sur 47 analysées sont dépourvues d'attribut alt renseigné. Parmi elles, les visuels du bracelet Serenity Pro sur la page pré-lancement. / 3. VIDÉOS SANS SOUS-TITRES (Critère 4.1) — Les 3 vidéos de démonstration produit hébergées en natif (format .mp4, durée totale : 8 min 22 s) ne comportent aucun sous-titre synchronisé ni transcription textuelle alternative. / 4. FORMULAIRES SANS ÉTIQUETTES EXPLICITES (Critère 11.1) — Le formulaire de demande de démo B2B (page /demo-entreprise) utilise des placeholders comme seule indication de champ, sans balise <label> associée. / 5. NAVIGATION AU CLAVIER INCOMPLÈTE (Critère 12.1) — Le menu principal et les modales de téléchargement de ressources RH ne sont pas accessibles via la touche Tab. Focus visible absent sur plusieurs éléments interactifs. / 6. LIENS NON EXPLICITES (Critère 6.1) — 12 occurrences du lien générique 'Cliquez ici' ou 'En savoir plus' sans contexte adjacent suffisant, notamment dans les articles du blog bien-être au travail. / 7. DOCUMENTS PDF NON BALISÉS (Critère 13.3) — Les 4 livres blancs téléchargeables (dont 'Stress & Performance, édition 2024') sont des PDF image non structurés, illisibles par les lecteurs d'écran. / 8. LANGUE DE LA PAGE NON DÉCLARÉE (Critère 8.3) — L'attribut lang est absent sur l'ensemble des pages du site. Impacte la restitution vocale et le référencement multilingue pour les marchés nordiques."
             },
             {
               "type": "callout",
-              "text": "⚠ ALERTE PLANNING — Northgate : aucune spécification d'intégration API reçue à J+28, alors que la date contractuelle était fixée au J+21 (2 septembre). Ce retard bloque directement US-07 et conditionne 4 user stories du sprint 2. Jakob Rein s'est engagé en séance à livrer un premier draft complet avant le vendredi 13 septembre, 17h00. Point de suivi formel prévu le lundi 16 septembre."
+              "text": "⚠ RISQUE LANCEMENT : En l'état, le site lumiohealth.fr ne satisfait aucun des critères RGAA de niveau A sur les points audités. Une campagne digitale activée sur cette base exposerait Lumio Health à des signalements d'associations d'accessibilité, à une pénalisation SEO en Europe du Nord, et fragiliserait la crédibilité d'une marque positionnée sur le bien-être au travail."
             },
             {
               "type": "h2",
-              "text": "2. Ajustement de périmètre validé — Module Analytics"
+              "text": "Plan de remédiation recommandé"
             },
             {
               "type": "p",
-              "text": "Théo Marczak a validé la proposition de Sonia Ferracci de réduire le périmètre du module analytics pour le sprint 2 : la fonctionnalité de corrélation stress/absentéisme (initialement prévue en v1.0) est reportée en v1.1, après VivaTech. Cette décision permet de récupérer 13 points de capacité sur le sprint 2 et de sécuriser les fonctionnalités cœur (tableaux de bord RH temps réel, alertes seuils, export PDF). Le périmètre révisé est acté dans le backlog Notion à compter d'aujourd'hui. Camille Ott a confirmé que les 4 clients pilotes sollicités pour les tests utilisateurs (semaine 8) ont été informés de cet ajustement sans réaction négative."
-            },
-            {
-              "type": "h2",
-              "text": "3. Décisions actées & prochaines échéances"
-            },
-            {
-              "type": "p",
-              "text": "Trois décisions sont formellement actées à l'issue de ce COPIL. Premièrement, le report de la corrélation stress/absentéisme en v1.1 est validé par le commanditaire. Deuxièmement, Northgate est mis en demeure (par écrit, courrier Sonia Ferracci → Jakob Rein, envoyé dans la journée) de livrer les spécifications API le 13 septembre au plus tard. Troisièmement, un atelier de cadrage RGAA est planifié le jeudi 12 septembre entre l'équipe UX interne et le référent technique Northgate, afin de résoudre le désaccord persistant sur les niveaux de conformité attendus (AA vs A). Le prochain COPIL est fixé au lundi 7 octobre 2024 (semaine 8), avec revue de mi-parcours complète."
+              "text": "Je propose une remédiation en deux phases à intégrer impérativement dans la stratégie de contenu pilotée par Sonia. Phase 1 — Corrections bloquantes (J+5, avant toute mise en ligne des pages Serenity Pro) : correction des contrastes, ajout des alt-texts sur toutes les images produit, pose des balises lang, remplacement des liens génériques. Charge estimée : 3 jours développeur front + 1 jour éditorial. Phase 2 — Conformité complète (J+21, avant activation des campagnes paid) : sous-titrage des vidéos (prestataire recommandé : Captivoice, devis 320 € HT pour les 3 vidéos), restructuration des PDF en documents balisés, refonte des formulaires avec labels explicites, audit navigation clavier complet. Charge estimée : 5 jours développeur + 2 jours content. Je reste disponible pour coordonner ce chantier, sous réserve d'un cadrage clair des priorités avec Sonia d'ici le 17 mars. Je signale en parallèle que la charge actuelle de production de contenus pour le lancement ne me permet pas d'absorber ce périmètre seul dans les délais demandés."
             },
             {
               "type": "callout",
-              "text": "✅ DÉCISION COMMANDITAIRE — Théo Marczak confirme que la date de livraison finale au 20 janvier 2025 (J-5 VivaTech) est non négociable. Il autorise en contrepartie la mobilisation d'un budget de contingence de 8 000 € pour renforcer ponctuellement l'équipe de développement si le retard Northgate ne se résorbe pas avant la semaine 6."
+              "text": "📋 ACTION REQUISE AVANT LE 17 MARS : Validation par Sonia Ferracci du plan de remédiation en deux phases. Arbitrage sur l'allocation de ressources développeur (à solliciter auprès de Théo Marczak). Ce rapport sera versé au dossier Northgate comme preuve de la démarche de conformité de Lumio Health."
             }
           ]
         }
@@ -102,100 +94,104 @@ window.LUMIO_DATA = {
     {
       "id": "DOC-04",
       "type": "rich",
-      "tab": "RAPPORT",
-      "title": "Rapport d'audit accessibilité RGAA — Sprint 3 — Prototype Northgate",
+      "tab": "TABLEAU_",
+      "title": "Benchmark concurrents — Coûts d'acquisition et taux de conversion e-commerce medtech 2024",
       "accent": "#c4420f",
-      "runningHead": "RAPPORT DE NON-CONFORMIT",
+      "runningHead": "TABLEAU_DONNEES",
       "pages": [
         {
-          "kicker": "RAPPORT DE NON-CONFORMITÉ — CONFIDENTIEL INTERNE",
-          "title": "14 non-conformités RGAA niveau AA détectées sur le prototype Northgate — Sprint 3",
-          "byline": "Équipe UX Lumio Health (Yassine Morel, référent accessibilité) · 9 septembre 2024",
+          "kicker": "NOTE INTERNE — CONFIDENTIEL",
+          "title": "Benchmark concurrents : CAC, taux de conversion et ROAS — Wearables bien-être & medtech, marché FR/EU Nord 2024",
+          "byline": "Sonia Ferracci, Directrice Marketing · 14 mars 2025",
           "blocks": [
             {
               "type": "p",
-              "text": "Dans le cadre du sprint 3 du projet Pulse, l'équipe UX a conduit un audit accessibilité complet sur le prototype livré par Northgate Capital Integration le 5 septembre 2024 (version 0.3.2 — environnement staging). L'audit a été mené selon le référentiel RGAA 4.1, critères de niveau AA, sur un périmètre couvrant 8 écrans clés : tableau de bord principal, module de visualisation des données de stress, page de configuration des alertes, interface de gestion des utilisateurs et formulaires d'authentification. Résultat : 14 non-conformités sont identifiées, dont 6 bloquantes au regard des exigences définies dans le cahier des charges fonctionnel signé le 12 juillet 2024."
+              "text": "Ce tableau de référence a été constitué à partir de données publiques (rapports annuels, études Statista Q4 2024, analyses Similarweb janv.–fév. 2025) et de benchmarks sectoriels fournis par notre agence data Upturn Analytics. Il couvre quatre acteurs directs ou adjacents sur le segment wearables stress/bien-être en Europe. Objectif : calibrer des cibles réalistes de CAC, de taux de conversion et de ROAS pour le lancement du Serenity Pro, avant présentation à Northgate Capital."
             },
             {
               "type": "h2",
-              "text": "Synthèse des non-conformités par catégorie"
+              "text": "Tableau comparatif — 4 concurrents clés (données 2024)"
             },
             {
               "type": "p",
-              "text": "CONTRASTES INSUFFISANTS (5 non-conformités — RGAA critère 3.2) : Le ratio de contraste texte/fond est inférieur à 4,5:1 sur les libellés de données secondaires (ratio mesuré : 2,8:1), les légendes de graphiques (3,1:1) et les messages d'état des alertes en mode actif (2,4:1). Les boutons d'action secondaires en gris clair (#ADADAD sur fond blanc) ne respectent pas le seuil minimal. Ces insuffisances impactent directement les utilisateurs présentant une déficience visuelle légère à modérée. — NAVIGATION CLAVIER DÉFAILLANTE (5 non-conformités — RGAA critères 7.1, 7.3) : Le focus clavier est invisible sur l'ensemble des éléments interactifs du tableau de bord (aucun outline CSS défini). La navigation par tabulation ne suit pas un ordre logique dans le formulaire de configuration des alertes (sauts de focus non maîtrisés). Le composant de sélection de période (datepicker) est inaccessible au clavier : aucune interaction possible sans souris. Les modales ne piègent pas correctement le focus : l'utilisateur peut sortir de la modale sans la fermer. — ALTERNATIVES TEXTUELLES ABSENTES (4 non-conformités — RGAA critères 1.1, 1.3) : Les 12 icônes fonctionnelles du module de visualisation (export, filtre, zoom, partage) ne disposent d'aucun attribut alt ni aria-label. Les graphiques SVG de tendance de stress ne comportent pas de description longue (aria-describedby absent). Les images décoratives ne sont pas masquées aux lecteurs d'écran (alt vide ou role presentation non renseignés)."
+              "text": "| Concurrent | Positionnement | Prix produit | CAC moyen (paid) | Taux de conversion site | ROAS moyen | Canal principal | Note |\n|---|---|---|---|---|---|---|---|\n| Helo Wellness (DE) | B2C grand public, stress & sommeil | 149 € | 38 € | 3,4 % | 3,1x | Meta Ads + influence micro | Fort volume, marges serrées sur le paid |\n| Athos Mind (UK) | B2C premium, biofeedback pro | 299 € | 72 € | 1,8 % | 2,1x | Google Search + LinkedIn | Conversion lente, LTV élevée |\n| Fibion (FI) | B2B/B2C hybride, sédentarité bureau | 189 € | 54 € | 2,6 % | 2,7x | SEO + partenariats RH | Modèle le plus proche de Lumio |\n| Biot Coach (FR) | B2C, coaching stress app-first | 119 € | 44 € | 2,9 % | 2,4x | TikTok + App Store Search | Audience jeune, taux de retour élevé (11 %) |"
             },
             {
               "type": "callout",
-              "text": "⚠ POINT BLOQUANT — Yassine Morel, référent accessibilité : Ces 14 non-conformités constituent une violation directe de l'article 5.1 du cahier des charges Pulse (conformité RGAA niveau AA obligatoire à la livraison finale). 6 d'entre elles sont bloquantes pour les utilisateurs en situation de handicap visuel ou moteur. La livraison de la version 0.3.2 en l'état ne peut être validée par l'équipe UX. Une correction est requise avant tout passage en recette."
+              "text": "Médiane sectorielle retenue comme référentiel : CAC 49 € · Taux de conversion 2,7 % · ROAS 2,6x. Ces valeurs constituent le plancher d'exigence pour le Serenity Pro au lancement (M1–M3)."
             },
             {
               "type": "h2",
-              "text": "Désaccord technique avec Northgate — point de friction identifié"
+              "text": "Enseignements pour le calibrage Serenity Pro"
             },
             {
               "type": "p",
-              "text": "Lors des échanges préliminaires du 6 septembre (thread Slack #pulse-tech), l'équipe Northgate a contesté la pertinence de deux critères soulevés, estimant que 'les exigences RGAA ne s'appliquent pas aux interfaces B2B à accès restreint'. Cette interprétation est juridiquement et contractuellement inexacte : le RGAA s'applique dès lors que l'obligation est stipulée dans le contrat — ce qui est le cas ici. Par ailleurs, Yassine Morel signale que les spécifications d'accessibilité transmises à Northgate dès le 19 juillet (document UX-SPEC-ACCESS-v1.2) n'ont manifestement pas été intégrées dans les développements du sprint 3. Ce point doit faire l'objet d'un arbitrage formel par Sonia Ferracci avant reprise du sprint 4."
+              "text": "Trois signaux ressortent de cette analyse. Premièrement, le couple prix élevé / CAC maîtrisé est atteignable uniquement sur des canaux à forte intention (Google Search, SEO éditorial médical) : Athos Mind en est la preuve, malgré un taux de conversion faible. Le Serenity Pro, positionné à 249 €, devra prioriser ces canaux pour ne pas dépasser 60 € de CAC en phase de lancement. Deuxièmement, le modèle hybride B2B/B2C de Fibion, avec un ROAS de 2,7x, est le plus transposable à notre réalité : les 180 comptes B2B existants constituent un levier d'activation organique à activer en priorité (Camille Ott à mobiliser dès S1). Troisièmement, le taux de retour produit de Biot Coach (11 %) illustre le risque d'un positionnement trop généraliste : une promesse UX claire et une onboarding app soignée sont des variables directement corrélées à la réduction des retours et à la progression du ROAS réel."
+            },
+            {
+              "type": "callout",
+              "text": "Objectifs cibles Serenity Pro — M1 à M6 : CAC ≤ 55 € (paid) · Taux de conversion ≥ 2,5 % · ROAS cible 2,8x · Taux de retour produit < 7 %. Ces seuils seront intégrés au dashboard temps réel présenté à Jakob Rein le 24 mars."
             },
             {
               "type": "h2",
-              "text": "Recommandations et prochaines étapes"
+              "text": "Limites et précautions d'usage"
             },
             {
               "type": "p",
-              "text": "L'équipe UX recommande : (1) Organiser une réunion de cadrage technique UX / Northgate avant le 13 septembre pour traiter les 6 non-conformités bloquantes en priorité. (2) Intégrer un point accessibilité systématique dans la définition of done (DoD) de chaque sprint à compter du sprint 4. (3) Demander à Northgate un plan de correction chiffré et daté sous 48h. (4) Documenter le désaccord d'interprétation dans le registre des risques projet. Le document de référence UX-SPEC-ACCESS-v1.2 et les captures d'écran annotées des 14 non-conformités sont joints au présent rapport (annexes A et B). Ce rapport est transmis à Sonia Ferracci pour arbitrage et à Théo Marczak pour information."
+              "text": "Ces données reflètent des performances moyennes annuelles 2024 et ne distinguent pas les phases de lancement des phases de maturité. Les CAC observés chez Helo Wellness et Biot Coach intègrent des périodes de promotions agressives (Black Friday, soldes janvier) qui gonflent artificiellement les taux de conversion. Enfin, les benchmarks UK (Athos Mind) sont affectés par le contexte post-Brexit sur la logistique EU. Recommandation : réévaluer ce tableau à M3 avec nos propres données Serenity Pro pour ajuster les enchères et les mix canaux en conséquence."
             }
           ]
         }
       ]
     },
     {
-      "id": "DOC-06",
+      "id": "DOC-05",
       "type": "rich",
-      "tab": "PLAN",
-      "title": "Plan de recette Pulse v2.1",
-      "accent": "#7a756c",
-      "runningHead": "PLAN DE TESTS RÉVISÉ",
+      "tab": "COMPTE_R",
+      "title": "CR Task Force Marketing — Arbitrages canaux & budget",
+      "accent": "#5b3a8a",
+      "runningHead": "COMPTE_RENDU_REUNION",
       "pages": [
         {
-          "kicker": "DOCUMENT INTERNE — CONFIDENTIEL",
-          "title": "Plan de recette Pulse v2.1 — Intégration des tests RGAA et scénarios utilisateurs B2B",
-          "byline": "Sonia Ferracci, Cheffe de projet · Camille Ott, Responsable partenariats B2B · 9 septembre 2024",
+          "kicker": "COMPTE RENDU INTERNE — CONFIDENTIEL",
+          "title": "Task Force Opération Cortisol Zero : arbitrages canaux et budget du lancement Serenity Pro",
+          "byline": "Sonia Ferracci, Directrice Marketing · 14 mars 2025",
           "blocks": [
             {
               "type": "p",
-              "text": "Suite à la réunion tripartite du 6 septembre 2024 (équipe UX, Northgate Capital / intégration technique, département juridique), le plan de recette initial — version 2.0 du 12 août — est formellement révisé. Les désaccords sur le périmètre d'accessibilité RGAA ont été arbitrés : les 14 critères contestés par Northgate sont intégralement maintenus dans le scope de livraison. Ce document constitue la référence contractuelle pour les sprints 7 et 8 (9 sept. → 4 oct. 2024) et engage l'ensemble des parties prenantes."
+              "text": "Réunion tenue le 14 mars 2025, 14h00–16h15, salle Synapse (siège Lumio Health, Paris 10e). Présents : Théo Marczak (CEO), Sonia Ferracci (Directrice Marketing), Camille Ott (Responsable partenariats B2B), Yassine Morel (Content Manager). Excusé : Jakob Rein (Northgate Capital), informé du compte rendu en aval. Ordre du jour : révision de l'enveloppe prévisionnelle (base de travail : 420 000 € pour la phase de lancement avril–juin 2025) et arbitrage entre les canaux d'acquisition prioritaires."
             },
             {
               "type": "h2",
-              "text": "1. Périmètre de tests RGAA — 14 critères retenus"
+              "text": "Positions exprimées en séance"
             },
             {
               "type": "p",
-              "text": "Les 14 critères RGAA 4.1 suivants font l'objet d'une vérification obligatoire avant toute validation de sprint : images (1.1, 1.3), cadres (2.1), couleurs (3.1, 3.2), multimédia (4.1), tableaux (5.1, 5.4), liens (6.1, 6.2), scripts (7.1, 7.3), éléments obligatoires (8.1) et navigation (12.1). Chaque critère est testé par l'équipe UX interne (référent : Yassine Morel, en coordination avec son aménagement de poste RQTH) et contre-validé par l'auditeur externe Temesis, mandaté le 3 septembre. Un rapport de non-conformité bloquant sera émis sous 48 h en cas d'écart. Northgate s'engage à corriger tout point bloquant dans un délai maximal de 72 h après notification formelle."
+              "text": "Théo Marczak a ouvert la discussion en défendant une allocation de 60 % du budget (soit environ 252 000 €) sur Google Ads Search et Performance Max, arguant d'un délai de conversion court avant le comité Northgate du 25 mars. Sa position : 'On a dix jours pour montrer un pipeline, pas pour cultiver du SEO.' Camille Ott a immédiatement soulevé le risque d'un angle exclusivement B2C : ses contacts DRH chez Sodexo et BNP Paribas attendent une approche LinkedIn Ads ciblée cadres dirigeants, avec landing pages dédiées RH. Elle estime que 15 à 20 % du budget alloué à LinkedIn permettrait d'activer 8 à 12 comptes grands comptes dès le mois d'avril. Yassine Morel, de son côté, a alerté sur deux points distincts : d'une part, l'absence totale de stratégie SEO organique pénalise la crédibilité long terme de la marque face à des concurrents comme Garmin Wellness et Fitbit Health Solutions ; d'autre part, il a signalé formellement que les contenus actuels du site lumiohealth.fr ne respectent pas les critères RGAA 4.1 (absence d'alternatives textuelles sur 34 visuels produit, contrastes insuffisants sur les CTA). Ce second point conditionne selon lui tout investissement media : 'Faire atterrir du trafic payant sur des pages non conformes, c'est perdre à la fois les conversions et la conformité légale.'"
             },
             {
               "type": "callout",
-              "text": "Point de vigilance RH : Yassine Morel assure la coordination des tests RGAA côté contenu et accessibilité rédactionnelle. Sa charge est plafonnée à 3 critères par sprint. Sonia Ferracci assure le relais sur les 11 critères restants en binôme avec Temesis."
+              "text": "Point bloquant identifié : Yassine Morel signale une non-conformité RGAA 4.1 sur les pages de destination actuelles (34 visuels sans alternative textuelle, CTA hors contraste). Aucun lancement de campagne payante ne peut être validé sans correction préalable. Délai estimé de mise en conformité : 5 jours ouvrés."
             },
             {
               "type": "h2",
-              "text": "2. Scénarios utilisateurs B2B — apport Camille Ott"
+              "text": "État des arbitrages : aucune décision tranchée"
             },
             {
               "type": "p",
-              "text": "Camille Ott a formalisé 6 scénarios de test représentatifs des usages réels des clients entreprises, construits à partir de retours terrain issus de 12 comptes actifs (dont Decathlon Pro, Malakoff Humanis et SNCF Voyageurs). Ces scénarios couvrent : (1) connexion et gestion des droits administrateur RH, (2) export CSV des données de stress par équipe sur période glissante, (3) paramétrage des alertes de seuil, (4) consultation du tableau de bord manager en mobilité (responsive), (5) accès multi-sites pour groupes >500 collaborateurs, (6) désactivation du compte salarié dans le respect du RGPD. Chaque scénario est associé à un jeu de données fictif anonymisé et à une grille de résultats attendus. Les tests seront exécutés en environnement de recette staging.lumio.io à compter du 16 septembre."
-            },
-            {
-              "type": "h2",
-              "text": "3. Procédure de correction itérative — sprints 7 et 8"
-            },
-            {
-              "type": "p",
-              "text": "Une boucle de correction en deux temps est instaurée pour les 4 dernières semaines du projet. Sprint 7 (9–20 sept.) : exécution des tests RGAA et scénarios B2B, remontée des anomalies dans Jira sous le label PULSE-RECETTE, priorisation selon matrice impact/effort. Sprint 8 (23 sept.–4 oct.) : correction des anomalies bloquantes et majeures, re-test ciblé, gel du code le 4 octobre à 18 h. Toute anomalie mineure non corrigée avant gel fera l'objet d'une fiche de dette technique transmise à Théo Marczak pour arbitrage. Un point de recette hebdomadaire est planifié chaque vendredi à 14 h 30 en format 45 min (Sonia + Camille + lead dev + Jakob Rein pour Northgate)."
+              "text": "La réunion n'a pas permis d'arrêter une allocation définitive. Trois scénarios ont été posés sur table sans vote : (A) Scénario Théo — 60 % Google Ads / 25 % Social Ads (Meta + LinkedIn) / 15 % SEO & contenus. (B) Scénario Camille — 40 % Google Ads / 35 % LinkedIn Ads B2B / 25 % SEO & contenus. (C) Scénario équilibré (proposé par Sonia en médiation) — 45 % Google Ads / 20 % LinkedIn Ads / 20 % SEO & contenus / 15 % réservé conformité RGAA + CRO (optimisation taux de conversion). La tension principale porte sur la temporalité : Théo raisonne à J+10 (comité Northgate), Yassine et Camille raisonnent à J+90 (performance réelle de campagne). Ce désaccord structurel doit être tranché avant le 18 mars pour permettre le briefing des prestataires media."
             },
             {
               "type": "callout",
-              "text": "Jalons non négociables : gel du code le 4 octobre — recette finale du 7 au 11 octobre — validation commanditaire (Théo Marczak) le 14 octobre. Tout dépassement de ces dates compromet la présentation à VivaTech Paris (janvier 2025)."
+              "text": "Action requise d'ici le 17 mars 17h00 : chaque membre de la task force transmet à Sonia Ferracci une note d'une page argumentant son scénario budgétaire avec KPIs associés (CPA cible, CPL LinkedIn, volume de trafic organique projeté à 90 jours). Sonia consolide et présente l'arbitrage final à Théo le 18 mars matin, avant transmission à Jakob Rein."
+            },
+            {
+              "type": "h2",
+              "text": "Prochaines étapes"
+            },
+            {
+              "type": "p",
+              "text": "17 mars — Remise des notes individuelles d'arbitrage budgétaire. 18 mars 09h00 — Réunion de clôture arbitrage avec Théo Marczak (30 min). 18 mars 14h00 — Envoi du brief media aux prestataires retenus. 19 mars — Lancement du chantier conformité RGAA sous pilotage Yassine Morel (correction des 34 visuels et refonte des CTA prioritaires). 25 mars — Présentation stratégie complète à Jakob Rein, Northgate Capital. Document rédigé et diffusé par Sonia Ferracci. Destinataires : Théo Marczak, Camille Ott, Yassine Morel. Pour information : Jakob Rein (version synthétique uniquement)."
             }
           ]
         }
@@ -204,104 +200,55 @@ window.LUMIO_DATA = {
     {
       "id": "DOC-07",
       "type": "rich",
-      "tab": "TABLEAU",
-      "title": "Dashboard Pulse — Semaine 12",
+      "tab": "RAPPORT_",
+      "title": "Rapport analytics — Campagne bêta Serenity Pro · 30 premiers jours",
       "accent": "#134547",
-      "runningHead": "TABLEAU DE BORD DE PILOT",
+      "runningHead": "RAPPORT_ANALYTICS",
       "pages": [
         {
-          "kicker": "TABLEAU DE BORD PILOTAGE",
-          "title": "Opération Pulse — Statut Semaine 12 : ROUGE délais / ORANGE budget",
-          "byline": "Sonia Ferracci, Cheffe de projet · Lundi 9 septembre 2024",
+          "kicker": "RAPPORT ANALYTICS — USAGE INTERNE",
+          "title": "GA4 Campagne bêta Serenity Pro : résultats J+30 et points de friction identifiés",
+          "byline": "Yassine Morel, Content Manager · 14 mars 2025",
           "blocks": [
             {
               "type": "p",
-              "text": "Ce tableau de bord synthétise l'état d'avancement du projet Pulse à l'issue de la semaine 12 sur 16. Il est préparé à l'attention de Théo Marczak en vue du COPIL #4 prévu le mercredi 11 septembre. Trois signaux critiques ont été identifiés et nécessitent un arbitrage formel du commanditaire avant la fin de semaine."
+              "text": "Ce rapport synthétise les données collectées via Google Analytics 4 sur les 30 premiers jours de la phase bêta du Serenity Pro (12 février – 13 mars 2025). Il couvre le trafic organique et payant, les performances par canal d'acquisition, les comportements on-site et les premiers signaux de conversion. Ces données sont destinées à Sonia Ferracci et à la task force marketing dans le cadre de la préparation du dossier Northgate."
             },
             {
               "type": "h2",
-              "text": "1. Avancement global — Indicateurs clés"
+              "text": "1. Vue d'ensemble du trafic"
             },
             {
               "type": "p",
-              "text": "• Planning (ROUGE) : dérive de 8 jours calendaires sur le chemin critique, imputable principalement au blocage des spécifications d'accessibilité RGAA entre l'équipe UX interne et Northgate (semaines 9–11). Les modules Tableau de bord RH et Export données sont en retard direct. Date de livraison contractuelle : 6 janvier 2025. Date projetée au rythme actuel : 14 janvier 2025.\n• Budget (ORANGE) : dépassement de 7 % sur le poste intégration technique (Northgate Capital), soit +18 200 € par rapport à l'enveloppe initiale de 260 000 €. Cause principale : allers-retours non planifiés sur les specs (12 jours·homme supplémentaires facturés). Les postes UX, développement interne et content restent dans l'enveloppe.\n• Qualité / Tests (ORANGE) : taux de couverture des tests à 64 % (cible semaine 12 : 80 %). 23 anomalies ouvertes, dont 4 bloquantes liées à la conformité RGAA niveau AA (contrastes, navigation clavier, gestion des libellés ARIA)."
+              "text": "Sur la période, la landing page bêta a enregistré 12 400 sessions, pour 9 180 utilisateurs uniques. Le taux de rebond s'établit à 67 %, ce qui est significativement au-dessus de notre référence sectorielle medtech (estimée entre 45 % et 52 %). La durée moyenne de session est de 1 min 38 s — insuffisante pour atteindre le bloc de preuves cliniques, positionné en bas de page. Le scroll depth médian s'arrête à 38 % de la page, confirmant que la majorité des visiteurs ne voient jamais le CTA principal 'Pré-commander'. La répartition par device : 71 % mobile, 26 % desktop, 3 % tablette. Or la version mobile présente un problème de chargement constaté sur les images produit WebP non compressées (LCP mesuré à 4,2 s sur 4G médian)."
             },
             {
               "type": "callout",
-              "text": "⚠ Point de vigilance RH — Yassine Morel (Content Manager, RQTH) a signalé une surcharge depuis la semaine 10. Son périmètre de tests de contenu a été étendu sans validation formelle. Action corrective engagée : redistribution partielle vers le prestataire rédaction externe. À confirmer en COPIL."
+              "text": "⚠ Friction majeure : LCP mobile à 4,2 s — au-delà du seuil Google Core Web Vitals (2,5 s). Chaque seconde supplémentaire de chargement corrèle à une hausse estimée de 8 à 12 % du taux de rebond. Action correctrice prioritaire avant le lancement officiel."
             },
             {
               "type": "h2",
-              "text": "2. Options d'arbitrage soumises à Théo Marczak"
+              "text": "2. Performance par canal d'acquisition et coût par lead"
             },
             {
               "type": "p",
-              "text": "Option A — Résorption par accélération : mobilisation d'un développeur front-end externe en renfort (estimation : 8 000 à 12 000 € supplémentaires, délai récupéré en 5 à 6 jours). Risque : intégration rapide d'une ressource non familière avec la stack Lumio.\n\nOption B — Périmètre réduit à date fixe : gel des fonctionnalités secondaires (exports PDF personnalisés, module benchmark sectoriel) et livraison du cœur fonctionnel le 6 janvier. Ces éléments seraient poussés en release 1.1 post-VivaTech. Risque : exposition réduite au salon, mais démonstration stable garantie.\n\nOption C — Renégociation partielle avec Northgate : blocage du surplus facturé au-delà du contrat initial jusqu'à résolution formelle du désaccord RGAA. Nécessite validation juridique. Risque relationnel à évaluer avec Jakob Rein."
+              "text": "Instagram Ads (ciblage 28-45 ans, intérêts bien-être / productivité) a généré 5 800 sessions avec un CPL de 22 €. LinkedIn Ads (ciblage DRH, Responsables HSE, effectifs 500+) a produit 1 240 sessions pour un CPL de 61 €. La Search organique représente 3 100 sessions — portée principalement par deux articles de blog publiés en janvier sur les mots-clés 'bracelet anti-stress entreprise' et 'wearable bien-être au travail'. Le trafic direct (1 260 sessions) correspond vraisemblablement aux contacts early adopters issus de notre base B2B existante. À noter : le taux de conversion global s'établit à 0,9 % (111 pré-commandes enregistrées sur 12 400 sessions), ce qui est inférieur à la cible initiale de 2,5 % fixée en brief de janvier."
             },
             {
               "type": "callout",
-              "text": "✅ Recommandation Sonia Ferracci : Option B en priorité, combinée à un point de cadrage technique formel avec Northgate (Jakob Rein) d'ici le 12 septembre pour clore définitivement le désaccord RGAA. La conformité accessibilité est non négociable : Lumio Health s'est engagée sur le niveau AA auprès de ses clients B2B, dont plusieurs ont des obligations légales en tant qu'employeurs."
+              "text": "📊 CPL LinkedIn à 61 € : coût élevé mais cohérent avec le segment DRH grands comptes. Camille Ott signale que 3 contacts LinkedIn ont demandé un devis flotte (50+ unités). La valeur potentielle de ces leads dépasse largement le CPL unitaire — à monitorer dans un funnel B2B dédié, distinct du funnel B2C."
             },
             {
               "type": "h2",
-              "text": "3. Prochaines échéances critiques"
+              "text": "3. Satisfaction early adopters et signaux qualitatifs"
             },
             {
               "type": "p",
-              "text": "• 11/09 — COPIL #4 : arbitrage commanditaire sur les trois options ci-dessus.\n• 13/09 — Réunion technique Sonia / Jakob Rein : résolution du désaccord RGAA, validation du backlog de tests accessibilité.\n• 20/09 — Objectif couverture tests à 85 % : point qualité avec l'équipe QA interne et Northgate.\n• 27/09 — Gel du périmètre fonctionnel (option B retenue) ou confirmation du renfort externe (option A).\n• 06/01/2025 — Livraison finale Pulse pour VivaTech Paris."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "DOC-08",
-      "type": "rich",
-      "tab": "BILAN",
-      "title": "Rétrospective Sprint 5 — Bilan final projet Pulse",
-      "accent": "#1b4f8a",
-      "runningHead": "BILAN DE RÉTROSPECTIVE É",
-      "pages": [
-        {
-          "kicker": "RÉTROSPECTIVE CLÔTURE",
-          "title": "Projet Pulse — Bilan final et plan d'amélioration continue",
-          "byline": "Sonia Ferracci & équipe projet Pulse · Vendredi 10 janvier 2025",
-          "blocks": [
-            {
-              "type": "p",
-              "text": "Cette rétrospective clôture officiellement les 16 semaines du projet Pulse. Elle a réuni l'ensemble de l'équipe interne (UX, développement, data, content) le vendredi 10 janvier 2025, soit 48 heures après la livraison finale de la plateforme et à J-7 de la présentation VivaTech. L'objectif : mesurer honnêtement ce qui a fonctionné, ce qui a failli, et formaliser des engagements concrets pour les projets suivants."
-            },
-            {
-              "type": "h2",
-              "text": "Indicateurs de performance finale"
-            },
-            {
-              "type": "p",
-              "text": "Vélocité finale du sprint 5 : 91 % (objectif initial fixé à 85 %). Taux de non-conformité résiduel à la livraison : 2 % (3 anomalies mineures d'affichage sur mobile, sans impact fonctionnel, planifiées en correctif post-lancement semaine 3). Le module accessibilité RGAA atteint le niveau AA sur 97 % des composants auditionnés, après la série de tests conduite du 18 au 23 décembre avec Yassine Morel et le cabinet Accessio. Le budget a été tenu à 98,4 % de l'enveloppe validée par Théo Marczak en septembre."
+              "text": "Le NPS mesuré auprès des 111 pré-commandeurs (enquête envoyée à J+7 post-inscription) ressort à 42. Ce score est encourageant pour une phase bêta, mais les verbatims révèlent deux points de friction récurrents : (1) le manque de clarté sur la compatibilité iOS / Android de l'application associée, mentionné par 34 % des répondants ; (2) l'absence de certification médicale visible sur la page, citée par 27 %. Par ailleurs, deux utilisateurs ont signalé des difficultés de lecture des contrastes sur la version mobile — remontée directement liée aux alertes RGAA que j'ai transmises en interne le 3 mars. Ces retours confirment la nécessité d'un audit d'accessibilité avant le lancement en production."
             },
             {
               "type": "callout",
-              "text": "✦ Résultat clé : vélocité à 91 %, non-conformité résiduelle à 2 %, conformité RGAA AA à 97 %. La plateforme est prête pour VivaTech le 17 janvier 2025."
-            },
-            {
-              "type": "h2",
-              "text": "Retour d'expérience — Gestion du conflit Northgate / équipe UX"
-            },
-            {
-              "type": "p",
-              "text": "Le point de friction le plus structurant du projet a été le désaccord entre l'équipe UX interne et Northgate Capital (référent Jakob Rein) sur les spécifications d'accessibilité RGAA, apparu dès la revue de mi-parcours (semaine 8). Northgate défendait une implémentation partielle jugée suffisante au regard du calendrier ; l'équipe UX maintenait l'exigence d'un niveau AA complet, conformément au cahier des charges initial. La résolution a nécessité une réunion d'arbitrage formelle avec Théo Marczak le 14 novembre, débouchant sur un avenant au contrat Northgate intégrant explicitement les critères RGAA comme condition de recette. Délai absorbé : 5 jours. Leçon retenue : l'absence de clause contractuelle précise dès le départ a rendu cet arbitrage tardif et coûteux en énergie collective."
-            },
-            {
-              "type": "h2",
-              "text": "Plan d'amélioration continue — Engagements pour les prochains projets"
-            },
-            {
-              "type": "p",
-              "text": "Trois mesures sont validées par l'équipe et soumises à Théo Marczak pour application dès le prochain projet digital : (1) Clause RGAA systématique dans tout contrat prestataire, avec niveau cible, méthode d'audit et condition de recette définis contractuellement avant le sprint 0. (2) Revue de risques formalisée dès le sprint 0, incluant une cartographie des zones de désaccord potentielles entre parties prenantes internes et externes. (3) Suivi de charge individuel renforcé : la situation de Yassine Morel, dont les signaux de surmenage ont été détectés tardivement en semaine 10, impose un point de charge hebdomadaire explicite pour chaque membre de l'équipe, avec adaptation des périmètres en cas d'alerte — conformément aux engagements RQTH et aux obligations de l'employeur."
-            },
-            {
-              "type": "callout",
-              "text": "✦ Engagement collectif : ces trois mesures (clause RGAA contractuelle, revue de risques sprint 0, suivi de charge individuel) seront intégrées au kit de démarrage de tout futur projet digital Lumio Health d'ici le 28 février 2025. Responsable : Sonia Ferracci."
+              "text": "✅ Axes d'optimisation prioritaires (30 jours avant lancement) : 1) Compression images + lazy loading pour ramener le LCP mobile sous 2,5 s. 2) Repositionnement du CTA principal dans le premier tiers de la page. 3) Ajout d'un bloc 'Compatibilité & certifications' visible au-dessus de la ligne de flottaison. 4) Correction des contrastes RGAA (ratio minimum 4,5:1 sur tous les textes corps). 5) Création d'un funnel GA4 distinct pour les leads B2B LinkedIn."
             }
           ]
         }
@@ -311,42 +258,44 @@ window.LUMIO_DATA = {
   "notes": [
     {
       "id": "DOC-02",
-      "title": "Note de cadrage Pulse v1.0",
-      "date": "Lundi 9 septembre 2024",
-      "preview": "Méthode hybride, 5 sprints de 3 semaines, RACI initial : le cadre de référence du projet Pulse avant démarrage.",
-      "kicker": "CADRAGE PROJET",
+      "title": "Synthèse prospects DRH grands comptes — opportunités Q2 2025",
+      "date": "14 mars 2025",
+      "preview": "12 DRH grands comptes mobilisables en Q2 2025 — tunnel B2B distinct et contenus LinkedIn dédiés requis en urgence.",
+      "kicker": "NOTE INTERNE — CONFIDENTIEL",
       "render": "plain",
-      "body": "Lumio Health — Opération Pulse | Note interne | 9 septembre 2024\n\nMÉTHODE RETENUE — HYBRIDE SCRUM / WATERFALL\nLe projet Pulse adopte une approche hybride : Scrum pour les cycles de développement (sprints itératifs, vélocité mesurable, backlog priorisé), Waterfall pour les jalons contractuels opposables aux prestataires. Ce choix tient compte de la contrainte calendaire non négociable (VivaTech, semaine du 20 janvier 2025), de la composition hétérogène de l'équipe et des obligations de reporting vers Northgate Capital.\n\nDÉCOUPAGE — 5 SPRINTS DE 3 SEMAINES\n— Sprint 1 (09/09 → 27/09) : Cadrage technique, audit UX existant, backlog initial\n— Sprint 2 (30/09 → 18/10) : Architecture et maquettes validées, spécifications RGAA formalisées\n— Sprint 3 (21/10 → 08/11) : Développements core platform (authentification, dashboard, exports)\n— Sprint 4 (11/11 → 29/11) : Intégration Northgate, tests fonctionnels, recette accessibilité\n— Sprint 5 (02/12 → 20/12) : Stabilisation, tests UAT clients pilotes, documentation\nSemaine 17 (06/01 → 10/01) : gel de version, déploiement production.\n\nCOMPOSITION DE L'ÉQUIPE\n— Sonia Ferracci : cheffe de projet, point de contact commanditaire\n— 2 développeurs front/back (internes)\n— 1 UX designer (interne)\n— Yassine Morel : content & documentation (RQTH — charge adaptée, pas d'astreinte)\n— 1 data analyst (interne)\n— Northgate (Jakob Rein) : prestataire intégration technique — intervient sprints 3 et 4\n\nMATRICE RACI SYNTHÉTIQUE\n\n| Livrable | Responsable | Approbateur | Consulté | Informé |\n|---|---|---|---|---|\n| Backlog produit | Sonia F. | Théo M. | Équipe UX | Northgate |\n| Spécifications RGAA | UX Designer | Sonia F. | Yassine M. | Northgate |\n| Intégration technique | Northgate | Sonia F. | Dev back | Théo M. |\n| Tests & recette | Dev + UX | Sonia F. | Data analyst | Théo M. |\n| Documentation finale | Yassine M. | Sonia F. | Dev front | Théo M. |\n\nPOINTS DE VIGILANCE\nLes spécifications d'accessibilité RGAA doivent être arrêtées avant la fin du Sprint 2 — tout désaccord non tranché à cette date bloquera l'intégration Northgate. Un point de synchronisation hebdomadaire (mercredi, 30 min) est instauré dès le 11 septembre entre Sonia Ferracci, le référent UX et Jakob Rein.\n\nCette note vaut référentiel de départ. Toute modification de périmètre après le Sprint 1 fait l'objet d'un avenant validé par Théo Marczak.",
-      "byline": "Sonia Ferracci (DirMkt / Cheffe de projet Pulse) · Lundi 9 septembre 2024"
+      "body": "Suite aux échanges menés entre janvier et mars 2025, 12 DRH de grands comptes ont manifesté un intérêt concret pour un déploiement du Serenity Pro dans le cadre de leurs dispositifs QVT. Profils identifiés : secteurs assurance (3), industrie (4), services financiers (3), retail (2). Tailles d'effectifs : 800 à 12 000 salariés. Budgets QVT Q2 déclarés entre 40 000 € et 180 000 €. Point de vigilance : ces interlocuteurs attendent un parcours de découverte distinct du canal grand public — démo produit dédiée, étude de cas ROI chiffrée, proposition tarifaire volume. Le tunnel e-commerce B2C standard ne leur correspond pas et risque de générer de la friction. Par ailleurs, trois DRH ont explicitement demandé des ressources LinkedIn à partager en interne (formats courts, visuels sobres, argumentaire bien-être au travail). Ces contenus n'existent pas encore dans notre bibliothèque. À intégrer dans le plan de lancement Sonia en priorité.",
+      "byline": "Camille Ott (Responsable B2B, Lumio Health) · 14 mars 2025"
+    },
+    {
+      "id": "DOC-08",
+      "title": "Board Northgate du 24 mars — Cadrage présentation et points de vigilance",
+      "date": "14 mars 2025",
+      "preview": "Cadrage opérationnel pour la présentation board du 24 mars : format, KPIs attendus et points de vigilance narratif.",
+      "kicker": "NOTE INTERNE CONFIDENTIELLE",
+      "render": "plain",
+      "body": "Format imposé : 15 minutes chrono, sans dépassement. Jakob Rein a confirmé qu'il veut voir le tableau de bord de pilotage en live — prévoir une démo fonctionnelle sur Data Studio ou équivalent, pas de capture statique. Les KPIs à faire apparaître en priorité : CAC cible B2C (≤ 38 €), taux de conversion e-commerce (objectif 3,2 %), pipeline B2B qualifié (valeur contrats DRH, 12 comptes cibles identifiés). Théo insiste sur la cohérence digital / distribution physique : les 12 pharmacies partenaires parisiennes doivent apparaître explicitement dans le parcours omnicanal — carte interactive ou schéma de flux obligatoire. Sur la conformité : anticiper une question de Jakob sur le RGPD et une de Théo sur le RGAA — avoir les réponses prêtes, ne pas les noyer dans les slides. Narratif attendu : partir du problème marché (stress professionnel, 3,2 M de salariés concernés en France), ancrer le Serenity Pro comme réponse mesurable, puis dérouler le plan d'activation avec jalons clairs à 30-60-90 jours. Éviter les slides de contexte génériques : Northgate connaît le secteur, ils veulent du chiffré et de l'actionnable. Préparer une slide de risques assumés — Jakob sanctionne davantage l'absence d'anticipation que les risques eux-mêmes.",
+      "byline": "Sonia Ferracci (Directrice Marketing, Lumio Health) · 14 mars 2025"
     }
   ],
   "guide": {
-    "title": "Guide de mission · Piloter un projet digital au service d'un commanditaire",
+    "title": "Guide de mission · Développer une stratégie de marketing digital et e-commerce au service d'un commanditaire",
     "intro": "Ce guide est là si tu te sens bloqué. Il ne donne pas les réponses — il indique où chercher.",
     "tips": [
       {
-        "titre": "C.14 — Identifier les modalités et méthodes de conduite de projet appropriées, en tenant compte de la problématique à traiter, du contexte, de l'équipe constituée et des usages du commanditaire, afin de piloter efficacement le projet digital.",
-        "body": "Appuyez-vous sur les caractéristiques concrètes du projet Pulse (délai contraint, prestataire externe, équipe mixte) pour justifier chaque choix méthodologique. Évitez les descriptions génériques : montrez que la méthode répond à un risque identifié."
+        "titre": "C.22-I — Élaborer une stratégie de marketing digital intégrée au plan de développement global du commanditaire",
+        "body": "Ancrez chaque choix de canal dans un argument business chiffré : montrez à Jakob Rein que chaque euro investi en digital soutient une ligne du plan de développement de Lumio. Évitez les listes creuses — reliez chaque KPI à un objectif stratégique précis."
       },
       {
-        "titre": "C.15 — Favoriser la communication entre les différentes parties prenantes du projet digital, en mobilisant les outils de travail collaboratif et au travers de réunions de projet, en suivant les prestations des fournisseurs et partenaires techniques, afin de garantir la cohésion, la transparence et l'efficacité tout au long du projet.",
-        "body": "Distinguez la communication interne (équipe Lumio) de la communication externe (Northgate, Théo Marczak). Un compte rendu synthétique, même fictif, renforcera significativement la crédibilité de votre production."
+        "titre": "C.23-I — Concevoir des contenus digitaux accessibles",
+        "body": "Traitez l'accessibilité RGAA comme un avantage concurrentiel, pas une contrainte : montrez comment des contenus accessibles élargissent l'audience de Lumio et renforcent l'image de marque responsable auprès de Northgate."
       },
       {
-        "titre": "C.16 — Contrôler le déroulement et l'exécution des différentes phases du projet, en mettant en place les indicateurs de suivi et tableaux de bord permettant l'évaluation de la performance et la maîtrise des coûts et des délais, et en surveillant le respect du planning, afin d'assurer la bonne gestion du projet digital.",
-        "body": "Quantifiez systématiquement : nombre de jours de retard constaté, écart budgétaire en %, taux de complétion par sprint. Un tableau de bord sans données chiffrées ne sera pas considéré comme probant par le jury."
+        "titre": "C.24-I — Évaluer en temps réel l'efficacité des actions mises en œuvre",
+        "body": "Soyez précis sur le respect du RGPD : indiquez concrètement comment les données sont collectées, stockées et anonymisées. Jakob Rein y est particulièrement attentif dans le contexte medtech — une lacune ici peut bloquer l'investissement."
       },
       {
-        "titre": "C.17 — Évaluer le résultat des actions engagées, en organisant des points réguliers avec le commanditaire concernant l'avancée du projet digital, et en identifiant avec lui les éventuelles modifications et réorientations à opérer, afin d'ajuster le projet si nécessaire.",
-        "body": "La valeur ajoutée de cette compétence réside dans la boucle feedback-décision-mesure. Montrez explicitement que vous avez mesuré l'efficacité des changements opérés, pas seulement que vous les avez décidés."
-      },
-      {
-        "titre": "C.18 — Vérifier la qualité des développements, en organisant les phases de tests permettant d'identifier et résoudre les dysfonctionnements et points de non-conformité, notamment en matière d'accessibilité pour les publics en situation de handicap, afin de s'assurer que le produit final réponde aux spécifications ergonomiques, fonctionnelles et techniques définies.",
-        "body": "L'accessibilité RGAA est un critère d'évaluation explicite du référentiel. Ne l'abordez pas comme une formalité : précisez les critères RGAA testés (niveau AA minimum), les outils utilisés (Axe, WAVE, lecteur d'écran) et les corrections apportées."
-      },
-      {
-        "titre": "C.19 — Organiser le travail à produire, en définissant les rôles et périmètres d'intervention des membres de l'équipe interne, en prenant compte des éventuels situation de handicap, en anticipant les éventuels besoins de recrutement, et en instaurant des usages et un mode de fonctionnement respectueux de l'environnement, afin de garantir une organisation efficace et durable.",
-        "body": "Un tableau RACI ou une matrice des responsabilités est fortement recommandé. N'omettez pas la dimension inclusion : même si aucun membre de votre équipe fictive n'est en situation de handicap, montrez que vous avez anticipé cette éventualité dans votre organisation."
+        "titre": "C.25-I — Optimiser la rentabilité des activités e-commerce",
+        "body": "Construisez un mini-business case chiffré : Northgate attend des projections réalistes, pas des hypothèses vagues. Montrez que vous maîtrisez la logique CAC/LTV et que le modèle e-commerce est viable à 18 mois."
       }
     ],
     "footer": "Ce guide est disponible à tout moment via le bouton ? en bas à gauche du desktop."
@@ -377,7 +326,7 @@ window.LUMIO_DATA = {
         "items": [
           {
             "kind": "mail",
-            "name": "Lancement officiel du projet",
+            "name": "URGENT — Brief stratégie",
             "app": "mail",
             "props": {
               "docId": "DOC-01"
@@ -385,7 +334,7 @@ window.LUMIO_DATA = {
           },
           {
             "kind": "note",
-            "name": "Note de cadrage Pulse",
+            "name": "Synthèse prospects DRH grands",
             "app": "notes",
             "props": {
               "docId": "DOC-02"
@@ -400,10 +349,18 @@ window.LUMIO_DATA = {
         "items": [
           {
             "kind": "pdf",
-            "name": "CR COPIL #1 Pulse",
+            "name": "Audit accessibilité RGAA —",
             "app": "pdf",
             "props": {
               "docId": "DOC-03"
+            }
+          },
+          {
+            "kind": "pdf",
+            "name": "Benchmark concurrents — Coûts",
+            "app": "pdf",
+            "props": {
+              "docId": "DOC-04"
             }
           }
         ]
@@ -415,18 +372,18 @@ window.LUMIO_DATA = {
         "items": [
           {
             "kind": "pdf",
-            "name": "Rapport d'audit accessibilité RGAA",
+            "name": "CR réunion task force",
             "app": "pdf",
             "props": {
-              "docId": "DOC-04"
+              "docId": "DOC-05"
             }
           },
           {
             "kind": "mail",
-            "name": "Réponse au rapport RGAA",
+            "name": "Due diligence marketing —",
             "app": "mail",
             "props": {
-              "docId": "DOC-05"
+              "docId": "DOC-06"
             }
           }
         ]
@@ -438,15 +395,7 @@ window.LUMIO_DATA = {
         "items": [
           {
             "kind": "pdf",
-            "name": "Plan de recette Pulse",
-            "app": "pdf",
-            "props": {
-              "docId": "DOC-06"
-            }
-          },
-          {
-            "kind": "pdf",
-            "name": "Dashboard Pulse — semaine",
+            "name": "Données GA4 campagne bêta",
             "app": "pdf",
             "props": {
               "docId": "DOC-07"
@@ -460,9 +409,9 @@ window.LUMIO_DATA = {
         "icon": "📁",
         "items": [
           {
-            "kind": "pdf",
-            "name": "Rétrospective sprint 5 —",
-            "app": "pdf",
+            "kind": "note",
+            "name": "Cadrage présentation board Northgate",
+            "app": "notes",
             "props": {
               "docId": "DOC-08"
             }
@@ -528,13 +477,13 @@ window.LUMIO_DATA = {
     ]
   },
   "calendar": {
-    "monthLabel": "Septembre",
+    "monthLabel": "Mars",
     "todayLabel": "Jour 1 / 18",
     "countdownLabel": "AVANT ÉCHÉANCE",
-    "startDay": 9,
+    "startDay": 14,
     "daysInMonth": 31,
     "startOffset": 0,
-    "deadlineDay": 26,
+    "deadlineDay": 31,
     "boardDay": null,
     "legend": [
       {
@@ -551,15 +500,15 @@ window.LUMIO_DATA = {
       }
     ],
     "events": {
-      "9": [
+      "14": [
         {
-          "label": "Kick-off · Opération Pulse — Refonte de la plateforme client Lumio Health",
+          "label": "Kick-off · Opération Cortisol Zero — Lancement digital du bracelet Lumio Serenity Pro",
           "bg": "#3a7bd5",
           "color": "#fff",
           "bold": true
         }
       ],
-      "26": [
+      "31": [
         {
           "label": "Livrable final",
           "bg": "#a83232",
@@ -582,15 +531,15 @@ window.LUMIO_DATA = {
         "name": "general"
       },
       {
-        "id": "projet-bc3",
-        "name": "projet-bc3"
+        "id": "projet-bc4-i",
+        "name": "projet-bc4-i"
       }
     ],
     "dms": [
       {
         "id": "commanditaire",
-        "name": "Théo Marczak",
-        "avatar": "TM",
+        "name": "Sonia Ferracci",
+        "avatar": "SF",
         "color": "#134547",
         "status": "online",
         "isCommanditaire": true
@@ -599,67 +548,68 @@ window.LUMIO_DATA = {
     "seed": {
       "commanditaire": [
         {
-          "from": "Théo Marczak",
-          "avatar": "TM",
+          "from": "Sonia Ferracci",
+          "avatar": "SF",
           "color": "#134547",
           "time": "08:47",
-          "text": "Bonjour {{PRENOM}}, bienvenue sur Pulse — content de t'avoir à bord pour ce chantier, on en avait besoin"
+          "text": "Bonjour {{PRENOM}} — bienvenue dans la task force Cortisol Zero 👋 Tu arrives à un moment charnière, le lancement Serenity Pro est fixé et Northgate ne nous laisse pas beaucoup de marge"
         },
         {
-          "from": "Théo Marczak",
-          "avatar": "TM",
+          "from": "Sonia Ferracci",
+          "avatar": "SF",
           "color": "#134547",
           "time": "08:51",
-          "text": "pour te situer rapidement : mi-parcours pas terrible, l'UX et Northgate sont en désaccord sur le RGAA depuis 3 semaines et personne n'a encore tranché — Sonia gère mais elle a besoin d'un appui structuré"
+          "text": "Pour contextualiser rapidement : on a 10 jours pour présenter une stratégie digitale complète à Jakob Rein — B2C, B2B, e-commerce, accessibilité RGAA, tout doit être couvert et chiffré. Yassine t'enverra l'audit contenu existant dès ce matin, lis-le en priorité"
         },
         {
-          "from": "Théo Marczak",
-          "avatar": "TM",
+          "from": "Sonia Ferracci",
+          "avatar": "SF",
           "color": "#134547",
-          "time": "08:55",
-          "text": "ce que j'attends de toi d'ici vendredi : une lecture claire de l'état réel du projet (planning, tensions, risques) et une première proposition pour remettre ça sur les rails — on a 16 semaines au total, on ne peut pas se permettre de perdre encore du temps"
+          "time": "08:54",
+          "text": "Ce dont j'ai besoin de toi d'ici vendredi 21 mars : une première cartographie des segments cibles + une proposition de parcours omnicanal pour les deux volets (DRH grands comptes côté Camille, grand public côté acquisition digitale) — on se call jeudi pour aligner avant que ça parte à Théo"
         }
       ]
     }
   },
   "slackPrompts": {
-    "commanditaire": "Tu es Théo Marczak, CEO de Lumio Health — commanditaire stratégique du projet Pulse chez Lumio Health. Tu réponds à {{PRENOM}}, consultant·e externe sur la mission \"Opération Pulse — Refonte de la plateforme client Lumio Health\". Tu évalues sans expliquer, tu relances sans donner la réponse, tu simules la pression hiérarchique. Tu réponds en 2-3 messages courts séparés par ---SPLIT---. Pas de longs développements.",
-    "commanditaireLivrable": "Tu es Théo Marczak. Tu viens de recevoir le livrable de {{PRENOM}}. Tu réagis en 2-3 messages courts séparés par ---SPLIT---. Tu pointes ce qui te paraît juste et ce qui te paraît faible, sans expliquer comment corriger."
+    "commanditaire": "Tu es Sonia Ferracci, Directrice Marketing, Lumio Health chez Lumio Health. Tu réponds à {{PRENOM}}, consultant·e externe sur la mission \"Opération Cortisol Zero — Lancement digital du bracelet Lumio Serenity Pro\". Tu évalues sans expliquer, tu relances sans donner la réponse, tu simules la pression hiérarchique. Tu réponds en 2-3 messages courts séparés par ---SPLIT---. Pas de longs développements.",
+    "commanditaireLivrable": "Tu es Sonia Ferracci. Tu viens de recevoir le livrable de {{PRENOM}}. Tu réagis en 2-3 messages courts séparés par ---SPLIT---. Tu pointes ce qui te paraît juste et ce qui te paraît faible, sans expliquer comment corriger."
   },
   "pressArticles": [
     {
       "id": "a1",
       "source": "L'Usine Digitale",
       "host": "usine-digitale.fr",
-      "url": "usine-digitale.fr/article/refonte-plateforme-saas-b2b-delais-accessibilite-rgaa",
-      "author": "Mathilde Coquery",
-      "date": "3 septembre 2024",
-      "headline": "Refontes de plateformes SaaS B2B : pourquoi les projets déraillent à mi-parcours",
-      "lede": "Entre pressions calendaires, désaccords techniques sur l'accessibilité et coordination d'équipes hybrides, les chefs de projet digitaux naviguent dans des eaux de plus en plus agitées. Tour d'horizon des pièges récurrents et des pratiques qui font la différence.",
+      "url": "usine-digitale.fr/article/wearables-sante-le-grand-test-du-marche-grand-public",
+      "author": "Margaux Tellier",
+      "date": "11 mars 2025",
+      "headline": "Wearables santé : le grand test du marché grand public",
+      "lede": "Longtemps cantonnés aux flottes entreprises et aux protocoles médicaux, les bracelets connectés de bien-être tentent en 2025 leur percée B2C. Entre promesses technologiques et exigences réglementaires, l'équation reste complexe.",
       "illustration": "PHOTO ILLUSTRATIVE",
-      "body": "La refonte d'une plateforme SaaS B2B n'est jamais un projet anodin. Selon une étude publiée en juillet 2024 par le cabinet Archipel Conseil, 62 % des projets de ce type accusent un retard significatif à mi-parcours, et près d'un tiers dépassent leur budget initial de plus de 20 %. Les causes identifiées sont souvent les mêmes : spécifications initiales insuffisamment figées, turn-over dans les équipes, et sous-estimation de la complexité d'intégration avec des prestataires externes.\n\nL'un des points de friction les plus fréquents concerne aujourd'hui les exigences d'accessibilité numérique. Depuis la transposition de la directive européenne WCAG 2.1 en droit français via le RGAA 4.1, les équipes de développement et les intégrateurs techniques ne partagent pas toujours la même lecture des critères applicables. « On voit régulièrement des désaccords émerger entre l'UX interne et le prestataire technique sur qui porte la responsabilité de la conformité », explique Farid Aouad, consultant en gouvernance de projet chez NovaSprint. « Ces tensions, si elles ne sont pas arbitrées rapidement, peuvent faire perdre deux à trois semaines sur un planning déjà tendu. »\n\nLa question du pilotage en contexte de délai non négociable est particulièrement sensible dans les secteurs où la livraison est indexée sur un événement externe — un salon professionnel, une levée de fonds, un appel d'offres. Dans ces configurations, le chef de projet se retrouve à gérer simultanément la pression du commanditaire stratégique, les attentes des utilisateurs métier et les contraintes opérationnelles de sous-traitants qui ont leurs propres priorités.\n\nLes experts s'accordent sur un point : la réussite de ces projets repose moins sur les outils utilisés que sur la qualité de la communication entre parties prenantes. Les tableaux de bord de suivi, les rituels de synchronisation hebdomadaire et la clarté des RACI sont cités en tête des pratiques différenciantes. « Un bon indicateur, c'est le délai moyen entre la détection d'un écart et la décision corrective. Les équipes performantes le descendent sous 48 heures », note Aouad.\n\nAutre angle mort fréquemment signalé : la prise en compte des situations de handicap au sein même des équipes projet. La loi impose aux employeurs de plus de 20 salariés d'adapter les conditions de travail des collaborateurs reconnus RQTH, y compris dans les phases de sprint intense. Or, dans la réalité des projets sous tension, ces aménagements sont souvent relégués au second plan. Plusieurs DRH interrogés reconnaissent que la période de recadrage de mi-projet est celle où les signaux de surmenage sont les plus fréquents et les moins pris en charge.\n\nPour les medtech et healthtech en particulier, l'enjeu est double : livrer un produit conforme techniquement tout en préservant la crédibilité d'une marque dont le positionnement repose précisément sur le bien-être au travail. Une contradiction que les équipes internes vivent parfois douloureusement."
+      "body": "Le marché européen des wearables de santé au travail affiche une croissance de 18 % en 2024, selon le cabinet Frost & Sullivan. Pourtant, la majorité des acteurs du secteur restent prisonniers d'un modèle B2B qui plafonne naturellement autour de quelques centaines de comptes grands groupes. La question qui agite désormais les directions marketing de ces startups : comment franchir le pas vers le consommateur final sans diluer la crédibilité médicale qui fonde leur différenciation ?\n\nLes investisseurs, eux, ne cachent plus leur impatience. Plusieurs fonds de capital-risque spécialisés healthtech ont conditionné leurs tours de table 2025 à des feuilles de route B2C documentées, avec des indicateurs de conversion e-commerce clairs et des délais de mise en marché resserrés. 'On attend des stratégies omnicanales, pas des PowerPoints,' résume un partner d'un fonds parisien qui préfère rester anonyme.\n\nCôté exécution, le chantier est considérable. Construire une présence digitale crédible auprès du grand public suppose de repenser intégralement l'architecture de contenu : landing pages optimisées SEO, tunnel d'achat fluide, stratégie de réassurance par les données cliniques. Plusieurs acteurs du secteur ont sous-estimé le coût de cette transformation, oscillant entre 1,5 et 3 millions d'euros pour un lancement paneuropéen sérieux.\n\nLa question de l'accessibilité numérique s'impose également comme un enjeu non négligeable. Depuis l'entrée en vigueur progressive du European Accessibility Act, dont les premières échéances contraignent les services numériques à partir de juin 2025, les équipes produit et content des startups healthtech doivent intégrer les référentiels d'accessibilité dès la phase de conception. 'C'est un sujet que beaucoup traitent en bout de chaîne, alors que ça devrait structurer la production de contenu dès le départ,' observe Delphine Cazes, consultante accessibilité chez Atalan.\n\nLe RGPD ajoute une couche de complexité supplémentaire pour les acteurs manipulant des données physiologiques. Les bracelets de mesure du stress collectent par définition des données de santé au sens de l'article 9 du règlement européen, ce qui impose des bases légales renforcées, des durées de conservation strictes et une information transparente de l'utilisateur. Plusieurs startups ont déjà essuyé des mises en demeure de la CNIL sur ce point précis.\n\nPour les DRH grands comptes, l'arrivée d'une offre B2C de ces mêmes fabricants est perçue avec des sentiments mêlés. D'un côté, une visibilité accrue du produit peut faciliter l'adhésion des salariés. De l'autre, certains responsables RH craignent un nivellement par le bas de l'accompagnement et du suivi des données agrégées qu'ils négocient aujourd'hui dans leurs contrats B2B.\n\nLes prochains mois seront décisifs. Au moins trois acteurs français du secteur devraient annoncer des lancements grand public avant l'été, dans un marché où Garmin, Fitbit et Withings occupent déjà des positions confortables. La différenciation par la santé mentale et la mesure du cortisol pourrait constituer un angle porteur — à condition de disposer d'une stratégie digitale réellement intégrée et d'un modèle e-commerce rentable dès les premiers trimestres."
     }
   ],
   "fausseUne": {
     "source": "Les Échos",
     "host": "lesechos.fr",
-    "rubrique": "Tech & Santé au travail",
-    "kicker": "Medtech",
-    "date": "Lundi 9 septembre 2024",
-    "headline": "Bien-être au travail : la bataille des plateformes SaaS s'accélère avant VivaTech, les retardataires sanctionnés par le marché",
-    "chapeau": "Trois nouveaux acteurs européens — dont le britannique Moodable et l'allemand Kenjo Health — annoncent ce lundi des levées de fonds combinées de 47 millions d'euros pour refondre leurs interfaces et conquérir les directions RH françaises avant le premier trimestre 2025. La fenêtre de tir se referme : les grandes entreprises du CAC 40 finalisent leurs appels d'offres en décembre. Les outsiders qui n'auront pas une plateforme aboutie et accessible à présenter à VivaTech Paris en janvier risquent simplement de ne pas exister aux yeux des acheteurs.",
-    "body": "Le marché français des outils de mesure et de gestion du stress en entreprise, estimé à 340 millions d'euros en 2024 par le cabinet Xerfi, entre dans une phase de consolidation brutale. Selon une étude publiée ce matin par l'Observatoire de la QVT Numérique, 68 % des DRH interrogés déclarent vouloir changer de solution logicielle d'ici mars 2025, invoquant des interfaces vieillissantes, un manque de conformité RGAA et des tableaux de bord jugés insuffisamment lisibles pour leurs équipes managériales. 'Les acheteurs ne veulent plus de preuves de concept ou de démos bêta. Ils veulent du produit fini, auditable, accessible à tous les profils collaborateurs', résume Hélène Coursier, analyste senior chez Xerfi. Dans ce contexte, VivaTech Paris — dont l'édition de janvier 2025 réunira pour la première fois un pavillon Health & Work dédié — est unanimement désigné comme le rendez-vous décisif. Les acteurs qui s'y présenteront avec une plateforme complète et stabilisée capteront la visibilité nécessaire pour signer les contrats-cadres du premier semestre. Les autres, selon plusieurs investisseurs interrogés, 'passeront une saison difficile'. Northgate Capital, fonds anglo-saxon actif sur plusieurs dossiers medtech français, a d'ores et déjà indiqué à ses participations qu'il n'entendait pas financer de nouveaux cycles de développement au-delà de décembre 2024 sans livrable démontrable. La pression sur les équipes produit n'a jamais été aussi forte."
+    "rubrique": "Économie & Entreprises",
+    "kicker": "Santé au travail",
+    "date": "14 mars 2025",
+    "headline": "Wearables anti-stress : les géants américains Whoop et Fitbit Health s'apprêtent à déferler sur l'Europe, les startups françaises sous pression",
+    "chapeau": "Whoop et la division santé de Google-Fitbit ont confirmé cette semaine leur entrée simultanée sur le segment européen du bien-être au travail, avec des lancements prévus avant l'été 2025. Pour les acteurs tricolores encore en phase de déploiement, la fenêtre de tir se referme brutalement.",
+    "body": "Deux annonces en quarante-huit heures ont suffi à redistribuer les cartes. Whoop, valorisé 3,6 milliards de dollars après sa dernière levée, a dévoilé mardi un partenariat avec le groupe Sodexo Benefits pour équiper 40 000 salariés européens dès juin prochain. Dans la foulée, Fitbit Health — filiale de Google — a présenté à Barcelone son offre 'Workplace Serenity Suite', un écosystème wearable et SaaS ciblant explicitement les directions des ressources humaines des ETI et grands comptes du Vieux Continent. Le prix d'entrée affiché, 189 euros par dispositif avec abonnement data inclus, place la barre très bas. Pour les medtechs françaises dont le modèle repose sur une clientèle B2B fidèle mais encore modeste, l'enjeu n'est plus de croître tranquillement : c'est de s'imposer avant que les standards soient fixés par des acteurs dotés de budgets marketing dix fois supérieurs. Les fonds d'investissement actifs dans le secteur, qui avaient jusqu'ici accordé un délai raisonnable à leurs participations, commencent à demander des preuves de traction digitale mesurables — et vite. Selon nos informations, plusieurs term sheets seraient conditionnés à des indicateurs de lancement e-commerce précis pour le deuxième trimestre 2025."
   }
 };
 
 window.PAC_CONFIG = {
-  "bloc": "bc3",
-  "titre": "Piloter un projet digital au service d'un commanditaire",
-  "epreuve": "E3. Pilotage d'un projet digital",
-  "deadline": "Lundi 9 septembre 2024 · 18h00",
-  "commanditaire": "Théo Marczak",
+  "bloc": "bc4-i",
+  "titre": "Développer une stratégie de marketing digital et e-commerce au service d'un commanditaire",
+  "epreuve": "E4-I. Proposition d'une stratégie de marketing digital et e-commerce",
+  "deadline": "14 mars 2025 · 18h00",
+  "commanditaire": "Sonia Ferracci",
   "entreprise": "Lumio Health",
   "dispositif": "PAC",
+  "accroche": "Tu es mandaté·e par <strong>Sonia Ferracci, Directrice Marketing de Lumio Health</strong>, pour concevoir la stratégie de marketing digital et e-commerce de l'<em>Opération Cortisol Zero</em> — le lancement du bracelet Lumio Serenity Pro. Positionnement en ligne, sélection des canaux, contenus accessibles, KPI, optimisation du parcours d'achat et rentabilité e-commerce&nbsp;: tout reste à construire. Jakob Rein (Northgate Capital) surveille de près les métriques d'acquisition. Sonia attend une proposition structurée, pas une liste de bonnes pratiques. <em>Le produit est prêt. Le marché ne t'attend pas.</em>",
   "note_reflexive": false,
   "temps": [
     {
@@ -700,177 +650,93 @@ window.PAC_CONFIG = {
   ],
   "competences": [
     {
-      "code": "C.14",
-      "label": "Identifier les modalités et méthodes de conduite de projet appropriées, en tenant compte de la problématique à traiter, du contexte, de l'équipe constituée et des usages du commanditaire, afin de piloter efficacement le projet digital.",
-      "libelle": "Identifier les",
-      "rncp": "Identifier les modalités et méthodes de conduite de projet appropriées, en tenant compte de la problématique à traiter, du contexte, de l'équipe constituée et des usages du commanditaire, afin de piloter efficacement le projet digital.",
-      "placeholder": "Expliquez quelle méthode de conduite de projet vous avez choisie pour Pulse (Agile, Waterfall, hybride…), pourquoi elle est adaptée à ce contexte spécifique, comment vous avez sélectionné et justifié vos outils de gestion (ex. JIRA, Notion, MS Project), et en quoi vos choix sont alignés avec les usages de Théo Marczak et de l'équipe Lumio.",
-      "min": 200,
+      "code": "C.22-I",
+      "label": "Élaborer une stratégie de marketing digital intégrée au plan de développement global du commanditaire",
+      "libelle": "Élaborer une",
+      "rncp": "Élaborer une stratégie de marketing digital intégrée au plan de développement global du commanditaire, en déterminant le positionnement et les modalités de présence en ligne, en sélectionnant les outils et supports de communication adaptés, et en définissant les actions pour l'optimisation de la visibilité en ligne et l'acquisition de l'audience, ainsi que les indicateurs de performance (KPI) à améliorer, afin d'assurer une cohérence avec les canaux de communication et de distribution physiques.",
+      "placeholder": "Présentez la stratégie digitale globale de Lumio Health pour le lancement Serenity Pro : positionnement en ligne, canaux retenus (LinkedIn B2B, Instagram B2C, site e-commerce, partenariats médias santé…), articulation avec la distribution physique (pharmacies partenaires, showrooms pop-up), KPI cibles (CAC, reach, taux d'engagement) et cohérence avec le plan de développement 2025 présenté à Northgate.",
+      "min": 300,
       "motsCles": [
-        "méthode agile",
-        "waterfall",
-        "hybride",
-        "sprints",
-        "JIRA",
-        "Trello",
-        "backlog",
-        "risques",
-        "cadrage",
-        "usages commanditaire"
+        "positionnement digital",
+        "omnicanal",
+        "KPI",
+        "acquisition",
+        "visibilité",
+        "plan de développement",
+        "cohérence",
+        "canaux",
+        "personas",
+        "funnel"
       ],
-      "conseil": "Appuyez-vous sur les caractéristiques concrètes du projet Pulse (délai contraint, prestataire externe, équipe mixte) pour justifier chaque choix méthodologique. Évitez les descriptions génériques : montrez que la méthode répond à un risque identifié."
+      "conseil": "Ancrez chaque choix de canal dans un argument business chiffré : montrez à Jakob Rein que chaque euro investi en digital soutient une ligne du plan de développement de Lumio. Évitez les listes creuses — reliez chaque KPI à un objectif stratégique précis."
     },
     {
-      "code": "C.15",
-      "label": "Favoriser la communication entre les différentes parties prenantes du projet digital, en mobilisant les outils de travail collaboratif et au travers de réunions de projet, en suivant les prestations des fournisseurs et partenaires techniques, afin de garantir la cohésion, la transparence et l'efficacité tout au long du projet.",
-      "libelle": "Favoriser la",
-      "rncp": "Favoriser la communication entre les différentes parties prenantes du projet digital, en mobilisant les outils de travail collaboratif et au travers de réunions de projet, en suivant les prestations des fournisseurs et partenaires techniques, afin de garantir la cohésion, la transparence et l'efficacité tout au long du projet.",
-      "placeholder": "Décrivez comment vous avez structuré les flux de communication entre l'équipe interne, Théo Marczak, Northgate (Jakob Rein) et les autres prestataires. Précisez les outils collaboratifs retenus, la fréquence et le format des réunions, et joignez ou résumez au moins un compte rendu de réunion de projet Pulse.",
-      "min": 180,
+      "code": "C.23-I",
+      "label": "Concevoir des contenus digitaux accessibles",
+      "libelle": "Concevoir des",
+      "rncp": "Concevoir des contenus digitaux accessibles, en déterminant le type, le format et la tonalité des publications, et en définissant la nature, le volume et la fréquence d'actualisation des informations diffusées, ainsi que les messages à faire passer, afin de contribuer à l'attractivité et à la notoriété digitale du commanditaire.",
+      "placeholder": "Définissez la stratégie éditoriale de Lumio Health : ligne éditoriale (ton expert-bienveillant vs tech-lifestyle), calendrier de publications (fréquence par plateforme), formats retenus (vidéos courtes, infographies stress data, témoignages DRH, podcasts bien-être), messages clés par segment (B2C anxieux urbain / B2B DRH grands comptes), stratégie SEO/référencement, et conformité RGAA — en réponse aux alertes de Yassine Morel.",
+      "min": 250,
       "motsCles": [
-        "parties prenantes",
-        "compte rendu",
-        "réunion de lancement",
-        "Slack",
-        "Confluence",
-        "weekly",
-        "prestataire",
-        "Northgate",
-        "transparence",
-        "flux d'information"
+        "ligne éditoriale",
+        "calendrier éditorial",
+        "RGAA",
+        "accessibilité",
+        "SEO",
+        "format",
+        "tonalité",
+        "storytelling",
+        "notoriété",
+        "communauté"
       ],
-      "conseil": "Distinguez la communication interne (équipe Lumio) de la communication externe (Northgate, Théo Marczak). Un compte rendu synthétique, même fictif, renforcera significativement la crédibilité de votre production."
+      "conseil": "Traitez l'accessibilité RGAA comme un avantage concurrentiel, pas une contrainte : montrez comment des contenus accessibles élargissent l'audience de Lumio et renforcent l'image de marque responsable auprès de Northgate."
     },
     {
-      "code": "C.16",
-      "label": "Contrôler le déroulement et l'exécution des différentes phases du projet, en mettant en place les indicateurs de suivi et tableaux de bord permettant l'évaluation de la performance et la maîtrise des coûts et des délais, et en surveillant le respect du planning, afin d'assurer la bonne gestion du projet digital.",
-      "libelle": "Contrôler le",
-      "rncp": "Contrôler le déroulement et l'éxecution des différentes phases du projet, en mettant en place les indicateurs de suivi et tableaux de bord permettant l'évaluation de la performance et la maîtrise des coûts et des délais, et en surveillant le respect du planning, afin d'assurer la bonne gestion du projet digital.",
-      "placeholder": "Présentez le tableau de bord de pilotage que vous avez mis en place pour Pulse : quels indicateurs (KPIs) avez-vous retenus pour suivre les délais, les coûts et la qualité ? Comment avez-vous détecté et traité la dérive de planning identifiée en mi-parcours ? Montrez que votre système de reporting permet une décision rapide.",
+      "code": "C.24-I",
+      "label": "Évaluer en temps réel l'efficacité des actions mises en œuvre",
+      "libelle": "Évaluer en",
+      "rncp": "Évaluer en temps réel l'efficacité des actions mises en œuvre, en mettant en place les outils et solutions numériques permettant un suivi qualitatif et quantitatif du rendement des supports digitaux et des campagnes promotionnelles lancées en ligne, et en tenant compte des résultats obtenus et des tendances du secteur pour l'évolution et l'actualisation de ces outils, afin d'optimiser les outils de commercialisation et de communication numériques.",
+      "placeholder": "Décrivez le dispositif de pilotage en temps réel : outils retenus (GA4, Looker Studio, HubSpot…), structure du tableau de bord dynamique remis à Sonia Ferracci et à Théo Marczak, indicateurs qualitatifs (NPS, sentiment analysis) et quantitatifs (CPL, CTR, taux de rebond), protocole de collecte des données RGPD-compliant, et mécanisme d'ajustement des campagnes selon les résultats hebdomadaires.",
       "min": 220,
       "motsCles": [
         "tableau de bord",
         "KPI",
-        "burn-down",
-        "jalons",
-        "budget",
-        "dérive",
+        "RGPD",
+        "GA4",
         "reporting",
-        "GANTT",
-        "variance",
-        "suivi budgétaire"
+        "temps réel",
+        "A/B test",
+        "optimisation",
+        "tendances",
+        "itération"
       ],
-      "conseil": "Quantifiez systématiquement : nombre de jours de retard constaté, écart budgétaire en %, taux de complétion par sprint. Un tableau de bord sans données chiffrées ne sera pas considéré comme probant par le jury."
+      "conseil": "Soyez précis sur le respect du RGPD : indiquez concrètement comment les données sont collectées, stockées et anonymisées. Jakob Rein y est particulièrement attentif dans le contexte medtech — une lacune ici peut bloquer l'investissement."
     },
     {
-      "code": "C.17",
-      "label": "Évaluer le résultat des actions engagées, en organisant des points réguliers avec le commanditaire concernant l'avancée du projet digital, et en identifiant avec lui les éventuelles modifications et réorientations à opérer, afin d'ajuster le projet si nécessaire.",
-      "libelle": "Évaluer le",
-      "rncp": "Évaluer le résultat des actions engagées, en organisant des points réguliers avec le commanditaire concernant l'avancée du projet digital, et en identifiant avec lui les éventuelles modifications et réorientations à opérer, afin d'ajuster le projet si nécessaire.",
-      "placeholder": "Expliquez comment vous avez organisé les points de suivi avec Théo Marczak : fréquence, ordre du jour type, livrables partagés. Décrivez une situation concrète où les retours du commanditaire ont conduit à une réorientation du projet Pulse, et précisez les actions correctives déclenchées et leurs effets mesurés.",
-      "min": 180,
+      "code": "C.25-I",
+      "label": "Optimiser la rentabilité des activités e-commerce",
+      "libelle": "Optimiser la",
+      "rncp": "Optimiser la rentabilité des activités e-commerce, en adoptant une approche business d'analyse des coûts d'acquisition, de la rentabilité et des taux de marge, et en adaptant le parcours d'achat client, afin d'améliorer la conversion et la performance globale des ventes en ligne.",
+      "placeholder": "Analysez la rentabilité e-commerce du Serenity Pro : modélisez le coût d'acquisition par canal (Google Ads, LinkedIn Ads, influence santé), calculez le ROI et le ROAS cibles pour justifier l'enveloppe de 2,3 M€ demandée à Northgate, cartographiez le parcours d'achat client actuel (points de friction identifiés par Camille Ott), proposez des actions d'optimisation (UX checkout, upsell abonnement app, relance panier abandonné), et définissez les taux de conversion cibles par segment.",
+      "min": 250,
       "motsCles": [
-        "revue commanditaire",
-        "actions correctives",
-        "réorientation",
-        "indicateurs de performance",
-        "bilan",
-        "ajustement",
-        "décision",
-        "feedback",
-        "comité de pilotage",
-        "COPIL"
+        "ROI",
+        "ROAS",
+        "CAC",
+        "taux de conversion",
+        "parcours d'achat",
+        "marge",
+        "e-commerce",
+        "optimisation",
+        "coût d'acquisition",
+        "LTV"
       ],
-      "conseil": "La valeur ajoutée de cette compétence réside dans la boucle feedback-décision-mesure. Montrez explicitement que vous avez mesuré l'efficacité des changements opérés, pas seulement que vous les avez décidés."
-    },
-    {
-      "code": "C.18",
-      "label": "Vérifier la qualité des développements, en organisant les phases de tests permettant d'identifier et résoudre les dysfonctionnements et points de non-conformité, notamment en matière d'accessibilité pour les publics en situation de handicap, afin de s'assurer que le produit final réponde aux spécifications ergonomiques, fonctionnelles et techniques définies.",
-      "libelle": "Vérifier la",
-      "rncp": "Vérifier la qualité des développements, en organisant les phases de tests permettant d'identifier et résoudre les dysfonctionnements et points de non-conformité, notamment en matière d'accessibilité pour les publics en situation de handicap, afin de s'assurer que le produit final réponde aux spécifications ergonomiques, fonctionnelles et techniques définies.",
-      "placeholder": "Décrivez le plan de tests mis en place pour la plateforme Pulse : types de tests réalisés (fonctionnels, UX, de charge, d'accessibilité), outils utilisés, rôle de Northgate. Expliquez comment vous avez traité le désaccord sur les spécifications RGAA et quelles corrections ont été apportées de façon itérative.",
-      "min": 200,
-      "motsCles": [
-        "plan de tests",
-        "RGAA",
-        "accessibilité",
-        "recette",
-        "non-conformité",
-        "bug",
-        "itératif",
-        "UAT",
-        "critères d'acceptation",
-        "handicap"
-      ],
-      "conseil": "L'accessibilité RGAA est un critère d'évaluation explicite du référentiel. Ne l'abordez pas comme une formalité : précisez les critères RGAA testés (niveau AA minimum), les outils utilisés (Axe, WAVE, lecteur d'écran) et les corrections apportées."
-    },
-    {
-      "code": "C.19",
-      "label": "Organiser le travail à produire, en définissant les rôles et périmètres d'intervention des membres de l'équipe interne, en prenant compte des éventuels situation de handicap, en anticipant les éventuels besoins de recrutement, et en instaurant des usages et un mode de fonctionnement respectueux de l'environnement, afin de garantir une organisation efficace et durable.",
-      "libelle": "Organiser le",
-      "rncp": "Organiser le travail à produire, en définissant les rôles et périmètres d'intervention des membres de l'équipe interne, en prenant compte des éventuels situation de handicap, en anticipant les éventuels besoins de recrutement, et en instaurant des usages et un mode de fonctionnement respectueux de l'environnement, afin de garantir une organisation efficace et durable.",
-      "placeholder": "Présentez l'organigramme fonctionnel de l'équipe projet Pulse : qui fait quoi, avec quel périmètre de décision ? Précisez les mesures d'inclusion prises (adaptation de poste, accessibilité des outils), les éventuels besoins de recrutement anticipés, et les pratiques durables instaurées (numérique responsable, télétravail, green IT).",
-      "min": 180,
-      "motsCles": [
-        "RACI",
-        "organigramme",
-        "rôles",
-        "responsabilités",
-        "périmètre",
-        "inclusion",
-        "handicap",
-        "recrutement",
-        "numérique responsable",
-        "green IT"
-      ],
-      "conseil": "Un tableau RACI ou une matrice des responsabilités est fortement recommandé. N'omettez pas la dimension inclusion : même si aucun membre de votre équipe fictive n'est en situation de handicap, montrez que vous avez anticipé cette éventualité dans votre organisation."
-    },
-    {
-      "code": "C.20",
-      "label": "Coordonner l'action des membres de l'équipe interne, en organisant des réunions régulières de partage d'information et de contrôle des objectifs en termes de qualité et de délai, et en gérant d'éventuelles situations conflictuelles, afin de maintenir la cohésion et l'efficacité de l'équipe.",
-      "libelle": "Coordonner l'action",
-      "rncp": "Coordonner l'action des membres de l'équipe interne, en organisant des réunions régulières de partage d'information et de contrôle des objectifs en termes de qualité et de délai, et en gérant d'éventuelles situations conflictuelles, afin de maintenir la cohésion et l'efficacité de l'équipe.",
-      "placeholder": "Décrivez votre mode de coordination au quotidien sur Pulse : stand-ups, rétrospectives, revues de sprint. Racontez comment vous avez géré la tension entre l'équipe UX de Lumio et Northgate sur les spécifications RGAA : diagnostic de la situation, approche de résolution, résultat obtenu.",
-      "min": 180,
-      "motsCles": [
-        "stand-up",
-        "rétrospective",
-        "conflit",
-        "médiation",
-        "cohésion",
-        "leadership",
-        "intelligence collective",
-        "sprint review",
-        "escalade",
-        "arbitrage"
-      ],
-      "conseil": "La gestion du conflit UX/Northgate est le cœur narratif de cette compétence. Analysez les causes profondes (ambiguïté des specs, enjeux de responsabilité), pas seulement les symptômes. Le jury évaluera votre posture managériale, pas uniquement la résolution technique."
-    },
-    {
-      "code": "C.21",
-      "label": "Evaluer la performance collective de l'équipe interne, en mettant en place des indicateurs de performance collectifs et individuels, en réalisant régulièrement des bilans, et en facilitant les temps d'échange et de retour d'expérience, afin d'adapter et améliorer les pratiques de travail de l'équipe.",
-      "libelle": "Evaluer la",
-      "rncp": "Evaluer la performance collective de l'équipe interne, en mettant en place des indicateurs de performance collectifs et individuels, en réalisant régulièrement des bilans, en facilitant les temps d'échange et de retour d'expérience, afin d'adapter et améliorer les pratiques de travail de l'équipe.",
-      "placeholder": "Présentez le dispositif d'évaluation de la performance mis en place pour l'équipe Pulse : quels indicateurs collectifs et individuels avez-vous définis ? Comment avez-vous organisé les bilans et rétrospectives ? Donnez un exemple concret d'amélioration de pratique issue d'une session de retour d'expérience.",
-      "min": 160,
-      "motsCles": [
-        "indicateurs collectifs",
-        "OKR",
-        "bilan de sprint",
-        "rétrospective",
-        "retour d'expérience",
-        "amélioration continue",
-        "feedback individuel",
-        "montée en compétences",
-        "satisfaction équipe",
-        "vélocité"
-      ],
-      "conseil": "Différenciez clairement les indicateurs collectifs (vélocité d'équipe, taux de bugs en production, respect des délais) des indicateurs individuels (contributions par personne, qualité des livrables). La suggestion d'améliorations concrètes issues de la rétrospective est un critère d'évaluation explicite."
+      "conseil": "Construisez un mini-business case chiffré : Northgate attend des projections réalistes, pas des hypothèses vagues. Montrez que vous maîtrisez la logique CAC/LTV et que le modèle e-commerce est viable à 18 mois."
     }
   ],
   "gabarits": {},
   "questionsPositionnement": [],
-  "juryPrompt": "Tu es le jury certifiant du bloc bc3 (Manager en stratégie et développement de projet digital).\nContexte : Opération Pulse — Refonte de la plateforme client Lumio Health · Lundi 9 septembre 2024.\nTu évalues une production étudiante aux critères RNCP stricts. Sois exigeant mais juste.\nCritères éliminatoires :\n- Absence de définition explicite des rôles, responsabilités et périmètres d'intervention de chaque membre de l'équipe projet (matrice RACI ou équivalent manquante) — éliminatoire C.19\n- Absence d'indicateurs de performance chiffrés permettant de mesurer l'impact des actions engagées sur le projet Pulse (délais, coûts, qualité) — éliminatoire C.16 et C.17\n- Aucune mention des critères d'accessibilité RGAA dans le plan de tests ou absence de traitement des non-conformités détectées — éliminatoire C.18\n- Absence de compte rendu de réunion ou de preuve de communication formalisée avec le commanditaire Théo Marczak — éliminatoire C.15 et C.17\n- Méthode de conduite de projet non justifiée au regard du contexte spécifique de Pulse (délai contraint, équipe mixte interne/externe) — éliminatoire C.14\n- Absence de description d'un dispositif de gestion d'une situation conflictuelle ou de mécanisme de coordination collective — éliminatoire C.20\n- Production individuelle non cohérente avec la production collective du groupe, sans apport personnel identifiable lors de la présentation orale — éliminatoire transverse\n\nRéponds EXACTEMENT dans ce format :\n### C.14 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### C.15 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### C.16 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### C.17 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### C.18 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### C.19 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### C.20 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### C.21 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n## Niveau global\n**[Non conforme / Partiellement conforme / Conforme / Conforme avec distinction]**\n\n## Question de jury\nUne question dérangeante que tu poserais à l'oral.",
+  "juryPrompt": "Tu es le jury certifiant du bloc bc4-i (Manager en stratégie et développement de projet digital).\nContexte : Opération Cortisol Zero — Lancement digital du bracelet Lumio Serenity Pro · 14 mars 2025.\nTu évalues une production étudiante aux critères RNCP stricts. Sois exigeant mais juste.\nCritères éliminatoires :\n- Absence de définition explicite des rôles et responsabilités au sein de l'équipe projet (Sonia, Yassine, Camille) dans la mise en œuvre de la stratégie digitale.\n- Aucun indicateur d'impact quantitatif (KPI chiffrés, objectifs de conversion, seuils de ROI/ROAS) n'est défini pour au moins deux des quatre compétences traitées.\n- La stratégie digitale est présentée comme un plan autonome sans articulation démontrée avec les canaux de distribution physique ou le plan de développement global de Lumio Health.\n- Absence totale de référence aux obligations légales RGPD dans le dispositif de collecte et de traitement des données utilisateurs.\n- Les principes d'accessibilité numérique (RGAA) ne sont pas mentionnés ou sont traités comme une option sans lien avec la stratégie éditoriale.\n- Le volet e-commerce ne comporte aucune modélisation financière (CAC, ROI, taux de marge) permettant d'évaluer la viabilité du lancement Serenity Pro.\n- La proposition ignore complètement le segment B2B identifié par Camille Ott, laissant une cible stratégique majeure sans dispositif digital dédié.\n\nRéponds EXACTEMENT dans ce format :\n### C.22-I — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### C.23-I — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### C.24-I — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### C.25-I — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n## Niveau global\n**[Non conforme / Partiellement conforme / Conforme / Conforme avec distinction]**\n\n## Question de jury\nUne question dérangeante que tu poserais à l'oral.",
   "livrableMinMots": 520,
   "noteReflexiveMinMots": 100
 };
