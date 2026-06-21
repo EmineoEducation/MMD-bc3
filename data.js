@@ -693,6 +693,26 @@ window.LUMIO_DATA = {
 
 window.PAC_CONFIG = {
   "bloc": "bc3",
+  accroche_namescreen: {
+    "subtitle": "Piloter le projet digital",
+    "role": "consultant·e digital externe",
+    "intro": "Tu es {{STUDENT}}, consultant·e digital chez Lumio Health pour piloter l'Opération Pulse — la refonte de la plateforme client. Méthodes de conduite de projet, communication entre parties prenantes, contrôle des phases : tu produis le pilotage du projet digital (E3).",
+    "ratio_label": "3 semaines dans la vraie vie",
+    "regles": [
+      {
+        "ico": "📄",
+        "txt": "Tout ce que tu sais, c'est dans les documents projet du poste de mission."
+      },
+      {
+        "ico": "🤐",
+        "txt": "Le jury évalue ta méthode de pilotage, ta gestion des parties prenantes et ton suivi des phases."
+      },
+      {
+        "ico": "💬",
+        "txt": "Quand tu as une décision de pilotage solide → Slack → ton commanditaire. Sa réaction débloque la suite."
+      }
+    ]
+  },
   "titre": "Piloter un projet digital au service d'un commanditaire",
   "epreuve": "E3. Pilotage d'un projet digital",
   "deadline": "27 septembre 2024",
