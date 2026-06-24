@@ -345,17 +345,13 @@ window.LUMIO_DATA = {
             "kind": "mail",
             "name": "Lancement officiel — Projet Pulse ",
             "app": "mail",
-            "props": {
-              "docId": "DOC-01"
-            }
+            "props": { "openId": "DOC-01" }
           },
           {
             "kind": "note",
             "name": "Note de cadrage Pulse v1.0",
             "app": "notes",
-            "props": {
-              "docId": "DOC-02"
-            }
+            "props": { "openNote": "DOC-02" }
           }
         ]
       },
@@ -368,9 +364,7 @@ window.LUMIO_DATA = {
             "kind": "pdf",
             "name": "CR COPIL #1 Pulse — Semaine 4 — Bi",
             "app": "pdf",
-            "props": {
-              "docId": "DOC-03"
-            }
+            "props": { "openDoc": "DOC-03" }
           }
         ]
       },
@@ -383,17 +377,13 @@ window.LUMIO_DATA = {
             "kind": "pdf",
             "name": "Rapport d'audit accessibilité RGAA",
             "app": "pdf",
-            "props": {
-              "docId": "DOC-04"
-            }
+            "props": { "openDoc": "DOC-04" }
           },
           {
             "kind": "mail",
             "name": "Rapport RGAA v1.2 — Position North",
             "app": "mail",
-            "props": {
-              "docId": "DOC-05"
-            }
+            "props": { "openId": "DOC-05" }
           }
         ]
       },
@@ -406,17 +396,13 @@ window.LUMIO_DATA = {
             "kind": "pdf",
             "name": "Plan de recette Pulse v2.1",
             "app": "pdf",
-            "props": {
-              "docId": "DOC-06"
-            }
+            "props": { "openDoc": "DOC-06" }
           },
           {
             "kind": "pdf",
             "name": "Dashboard Pulse — Semaine 12",
             "app": "pdf",
-            "props": {
-              "docId": "DOC-07"
-            }
+            "props": { "openDoc": "DOC-07" }
           }
         ]
       },
@@ -429,9 +415,7 @@ window.LUMIO_DATA = {
             "kind": "pdf",
             "name": "Rétrospective Sprint 5 — Bilan fin",
             "app": "pdf",
-            "props": {
-              "docId": "DOC-08"
-            }
+            "props": { "openDoc": "DOC-08" }
           }
         ]
       },
@@ -441,46 +425,46 @@ window.LUMIO_DATA = {
         "icon": "👥",
         "items": [
           {
-            "kind": "html",
-            "name": "Théo Marczak",
-            "app": "browser",
-            "props": {
-              "src": "portraits/portrait_theo_marczak.html"
-            }
+                    "kind": "html",
+                    "name": "Théo Marczak — CEO",
+                    "app": "browser",
+                    "props": {
+                              "openPortrait": "theo"
+                    }
           },
           {
-            "kind": "html",
-            "name": "Sonia Ferracci",
-            "app": "browser",
-            "props": {
-              "src": "portraits/portrait_sonia_ferracci.html"
-            }
+                    "kind": "html",
+                    "name": "Sonia Ferracci — Dir. Marketing",
+                    "app": "browser",
+                    "props": {
+                              "openPortrait": "sonia"
+                    }
           },
           {
-            "kind": "html",
-            "name": "Camille Ott",
-            "app": "browser",
-            "props": {
-              "src": "portraits/portrait_camille_ott.html"
-            }
+                    "kind": "html",
+                    "name": "Camille Ott — Partenariats B2B",
+                    "app": "browser",
+                    "props": {
+                              "openPortrait": "camille"
+                    }
           },
           {
-            "kind": "html",
-            "name": "Yassine Morel",
-            "app": "browser",
-            "props": {
-              "src": "portraits/portrait_yassine_morel.html"
-            }
+                    "kind": "html",
+                    "name": "Yassine Morel — Content Manager",
+                    "app": "browser",
+                    "props": {
+                              "openPortrait": "yassine"
+                    }
           },
           {
-            "kind": "html",
-            "name": "Jakob Rein",
-            "app": "browser",
-            "props": {
-              "src": "portraits/portrait_jakob_rein.html"
-            }
+                    "kind": "html",
+                    "name": "Jakob Rein — Northgate Capital",
+                    "app": "browser",
+                    "props": {
+                              "openPortrait": "jakob"
+                    }
           }
-        ]
+          ]
       }
     },
     "order": [
@@ -690,6 +674,14 @@ window.LUMIO_DATA = {
     "body": "Le marché français des outils de mesure et de gestion du stress en entreprise, estimé à 340 millions d'euros en 2024 par le cabinet Xerfi, entre dans une phase de consolidation brutale. Selon une étude publiée ce matin par l'Observatoire de la QVT Numérique, 68 % des DRH interrogés déclarent vouloir changer de solution logicielle d'ici mars 2025, invoquant des interfaces vieillissantes, un manque de conformité RGAA et des tableaux de bord jugés insuffisamment lisibles pour leurs équipes managériales. 'Les acheteurs ne veulent plus de preuves de concept ou de démos bêta. Ils veulent du produit fini, auditable, accessible à tous les profils collaborateurs', résume Hélène Coursier, analyste senior chez Xerfi. Dans ce contexte, VivaTech Paris — dont l'édition de janvier 2025 réunira pour la première fois un pavillon Health & Work dédié — est unanimement désigné comme le rendez-vous décisif. Les acteurs qui s'y présenteront avec une plateforme complète et stabilisée capteront la visibilité nécessaire pour signer les contrats-cadres du premier semestre. Les autres, selon plusieurs investisseurs interrogés, 'passeront une saison difficile'. Northgate Capital, fonds anglo-saxon actif sur plusieurs dossiers medtech français, a d'ores et déjà indiqué à ses participations qu'il n'entendait pas financer de nouveaux cycles de développement au-delà de décembre 2024 sans livrable démontrable. La pression sur les équipes produit n'a jamais été aussi forte."
   }
 };
+
+
+// ── Correctifs RETEX juin 2026 ── injectés après LUMIO_DATA ──────────────
+if (!window.LUMIO_DATA.finder.folders.mission) { window.LUMIO_DATA.finder.folders.mission = {"title": "Mission — Dossier complet", "sidebar": "Mission", "icon": "🗂", "items": [{"kind": "folder", "name": "Acte 1 — Ancrage", "folder": "acte1"}, {"kind": "folder", "name": "Acte 2 — Entrée affaire", "folder": "acte2"}, {"kind": "folder", "name": "Acte 3 — Diagnostic", "folder": "acte3"}, {"kind": "folder", "name": "Acte 4 — Production", "folder": "acte4"}, {"kind": "folder", "name": "Acte 5 — Réflexion", "folder": "acte5"}, {"kind": "folder", "name": "Portraits équipe", "folder": "portraits"}]}; }
+if (!window.LUMIO_DATA.finder.order.includes('mission')) { var _o=window.LUMIO_DATA.finder.order; window.LUMIO_DATA.finder.order = ['guide','mission',..._o.filter(x=>x!=='guide')]; }
+if (!window.LUMIO_DATA.portraits || !window.LUMIO_DATA.portraits.length) { window.LUMIO_DATA.portraits = [{"key": "theo", "id": "portrait-theo", "title": "Théo Marczak — CEO", "tabTitle": "Théo Marczak", "favicon": "T", "faviconColor": "#0a3d62", "host": "lusinedigitale.fr", "url": "lusinedigitale.fr/portrait/theo-marczak", "file": "portraits/portrait_theo_marczak.html"}, {"key": "sonia", "id": "portrait-sonia", "title": "Sonia Ferracci — Dir. Marketing", "tabTitle": "Sonia Ferracci", "favicon": "S", "faviconColor": "#a02020", "host": "cbnews.fr", "url": "cbnews.fr/portrait/sonia-ferracci", "file": "portraits/portrait_sonia_ferracci.html"}, {"key": "camille", "id": "portrait-camille", "title": "Camille Ott — Partenariats B2B", "tabTitle": "Camille Ott", "favicon": "C", "faviconColor": "#1a6641", "host": "actionco.fr", "url": "actionco.fr/portrait/camille-ott", "file": "portraits/portrait_camille_ott.html"}, {"key": "yassine", "id": "portrait-yassine", "title": "Yassine Morel — Content Manager", "tabTitle": "Yassine Morel", "favicon": "Y", "faviconColor": "#e85d3a", "host": "maddyness.com", "url": "maddyness.com/portrait/yassine-morel", "file": "portraits/portrait_yassine_morel.html"}, {"key": "jakob", "id": "portrait-jakob", "title": "Jakob Rein — Northgate Capital", "tabTitle": "Jakob Rein", "favicon": "J", "faviconColor": "#1b3a6b", "host": "forbes.fr", "url": "forbes.fr/portrait/jakob-rein", "file": "portraits/portrait_jakob_rein.html"}]; }
+if (!window.LUMIO_DATA.desktopIcons) { window.LUMIO_DATA.desktopIcons = [{"app": "finder", "folder": "mission", "label": "Mission", "kind": "folder"}, {"app": "finder", "folder": "portraits", "label": "Portraits équipe", "kind": "folder"}, {"app": "mail", "label": "Mail", "kind": "app"}, {"app": "slack", "label": "Slack", "kind": "app"}, {"app": "notepad", "label": "Mes notes.txt", "kind": "app"}]; }
+if (!window.LUMIO_DATA.voiceMemos || !window.LUMIO_DATA.voiceMemos.length) { window.LUMIO_DATA.voiceMemos = [{"title": "Débrief RDV — partenaire stratégique", "author": "Camille Ott", "role": "Responsable partenariats B2B", "date": "Mars 2025", "context": "mémo dicté après réunion", "durationSec": 44, "transcript": "Réunion ce matin avec le partenaire clé. Le message principal : ils veulent avancer, mais pas sans voir la certification MDR progresser. Côté budget, la fourchette est réaliste — ils sont prêts à discuter. Ce qui bloque, c'est la souveraineté des données : hébergement France, audit annuel, accès self-service. Je leur ai dit qu'on pouvait s'engager sur ce point d'ici fin mars. À valider avec Théo avant que je confirme."}, {"title": "Note terrain — signaux B2B semaine", "author": "Camille Ott", "role": "Responsable partenariats B2B", "date": "Avril 2025", "context": "mémo dicté en déplacement", "durationSec": 36, "transcript": "Trois signaux forts cette semaine. Un : les DSI bloquent systématiquement sur RGPD dès qu'on parle de wearable — sans hébergement local certifié, on ne passe pas. Deux : le sujet est remonté au niveau comité de direction dans deux entreprises sur trois — la décision n'est plus RH, elle est stratégique. Trois : les mutuelles commencent à nous solliciter directement pour des offres packagées. C'est un canal qu'on n'avait pas prévu et qui mérite qu'on y consacre du temps."}]; }
 
 window.PAC_CONFIG = {
   "bloc": "bc3",
