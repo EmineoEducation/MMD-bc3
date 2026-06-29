@@ -345,13 +345,17 @@ window.LUMIO_DATA = {
             "kind": "mail",
             "name": "Lancement officiel — Projet Pulse ",
             "app": "mail",
-            "props": { "openId": "DOC-01" }
+            "props": {
+              "docId": "DOC-01"
+            }
           },
           {
             "kind": "note",
             "name": "Note de cadrage Pulse v1.0",
             "app": "notes",
-            "props": { "openNote": "DOC-02" }
+            "props": {
+              "docId": "DOC-02"
+            }
           }
         ]
       },
@@ -364,7 +368,9 @@ window.LUMIO_DATA = {
             "kind": "pdf",
             "name": "CR COPIL #1 Pulse — Semaine 4 — Bi",
             "app": "pdf",
-            "props": { "openDoc": "DOC-03" }
+            "props": {
+              "docId": "DOC-03"
+            }
           }
         ]
       },
@@ -377,13 +383,17 @@ window.LUMIO_DATA = {
             "kind": "pdf",
             "name": "Rapport d'audit accessibilité RGAA",
             "app": "pdf",
-            "props": { "openDoc": "DOC-04" }
+            "props": {
+              "docId": "DOC-04"
+            }
           },
           {
             "kind": "mail",
             "name": "Rapport RGAA v1.2 — Position North",
             "app": "mail",
-            "props": { "openId": "DOC-05" }
+            "props": {
+              "docId": "DOC-05"
+            }
           }
         ]
       },
@@ -396,13 +406,17 @@ window.LUMIO_DATA = {
             "kind": "pdf",
             "name": "Plan de recette Pulse v2.1",
             "app": "pdf",
-            "props": { "openDoc": "DOC-06" }
+            "props": {
+              "docId": "DOC-06"
+            }
           },
           {
             "kind": "pdf",
             "name": "Dashboard Pulse — Semaine 12",
             "app": "pdf",
-            "props": { "openDoc": "DOC-07" }
+            "props": {
+              "docId": "DOC-07"
+            }
           }
         ]
       },
@@ -415,7 +429,9 @@ window.LUMIO_DATA = {
             "kind": "pdf",
             "name": "Rétrospective Sprint 5 — Bilan fin",
             "app": "pdf",
-            "props": { "openDoc": "DOC-08" }
+            "props": {
+              "docId": "DOC-08"
+            }
           }
         ]
       },
@@ -425,46 +441,46 @@ window.LUMIO_DATA = {
         "icon": "👥",
         "items": [
           {
-                    "kind": "html",
-                    "name": "Théo Marczak — CEO",
-                    "app": "browser",
-                    "props": {
-                              "openPortrait": "theo"
-                    }
+            "kind": "html",
+            "name": "Théo Marczak",
+            "app": "browser",
+            "props": {
+              "src": "portraits/portrait_theo_marczak.html"
+            }
           },
           {
-                    "kind": "html",
-                    "name": "Sonia Ferracci — Dir. Marketing",
-                    "app": "browser",
-                    "props": {
-                              "openPortrait": "sonia"
-                    }
+            "kind": "html",
+            "name": "Sonia Ferracci",
+            "app": "browser",
+            "props": {
+              "src": "portraits/portrait_sonia_ferracci.html"
+            }
           },
           {
-                    "kind": "html",
-                    "name": "Camille Ott — Partenariats B2B",
-                    "app": "browser",
-                    "props": {
-                              "openPortrait": "camille"
-                    }
+            "kind": "html",
+            "name": "Camille Ott",
+            "app": "browser",
+            "props": {
+              "src": "portraits/portrait_camille_ott.html"
+            }
           },
           {
-                    "kind": "html",
-                    "name": "Yassine Morel — Content Manager",
-                    "app": "browser",
-                    "props": {
-                              "openPortrait": "yassine"
-                    }
+            "kind": "html",
+            "name": "Yassine Morel",
+            "app": "browser",
+            "props": {
+              "src": "portraits/portrait_yassine_morel.html"
+            }
           },
           {
-                    "kind": "html",
-                    "name": "Jakob Rein — Northgate Capital",
-                    "app": "browser",
-                    "props": {
-                              "openPortrait": "jakob"
-                    }
+            "kind": "html",
+            "name": "Jakob Rein",
+            "app": "browser",
+            "props": {
+              "src": "portraits/portrait_jakob_rein.html"
+            }
           }
-          ]
+        ]
       }
     },
     "order": [
@@ -675,36 +691,8 @@ window.LUMIO_DATA = {
   }
 };
 
-
-// ── Correctifs RETEX juin 2026 ── injectés après LUMIO_DATA ──────────────
-if (!window.LUMIO_DATA.finder.folders.mission) { window.LUMIO_DATA.finder.folders.mission = {"title": "Mission — Dossier complet", "sidebar": "Mission", "icon": "🗂", "items": [{"kind": "folder", "name": "Acte 1 — Ancrage", "folder": "acte1"}, {"kind": "folder", "name": "Acte 2 — Entrée affaire", "folder": "acte2"}, {"kind": "folder", "name": "Acte 3 — Diagnostic", "folder": "acte3"}, {"kind": "folder", "name": "Acte 4 — Production", "folder": "acte4"}, {"kind": "folder", "name": "Acte 5 — Réflexion", "folder": "acte5"}, {"kind": "folder", "name": "Portraits équipe", "folder": "portraits"}]}; }
-if (!window.LUMIO_DATA.finder.order.includes('mission')) { var _o=window.LUMIO_DATA.finder.order; window.LUMIO_DATA.finder.order = ['guide','mission',..._o.filter(x=>x!=='guide')]; }
-if (!window.LUMIO_DATA.portraits || !window.LUMIO_DATA.portraits.length) { window.LUMIO_DATA.portraits = [{"key": "theo", "id": "portrait-theo", "title": "Théo Marczak — CEO", "tabTitle": "Théo Marczak", "favicon": "T", "faviconColor": "#0a3d62", "host": "lusinedigitale.fr", "url": "lusinedigitale.fr/portrait/theo-marczak", "file": "portraits/portrait_theo_marczak.html"}, {"key": "sonia", "id": "portrait-sonia", "title": "Sonia Ferracci — Dir. Marketing", "tabTitle": "Sonia Ferracci", "favicon": "S", "faviconColor": "#a02020", "host": "cbnews.fr", "url": "cbnews.fr/portrait/sonia-ferracci", "file": "portraits/portrait_sonia_ferracci.html"}, {"key": "camille", "id": "portrait-camille", "title": "Camille Ott — Partenariats B2B", "tabTitle": "Camille Ott", "favicon": "C", "faviconColor": "#1a6641", "host": "actionco.fr", "url": "actionco.fr/portrait/camille-ott", "file": "portraits/portrait_camille_ott.html"}, {"key": "yassine", "id": "portrait-yassine", "title": "Yassine Morel — Content Manager", "tabTitle": "Yassine Morel", "favicon": "Y", "faviconColor": "#e85d3a", "host": "maddyness.com", "url": "maddyness.com/portrait/yassine-morel", "file": "portraits/portrait_yassine_morel.html"}, {"key": "jakob", "id": "portrait-jakob", "title": "Jakob Rein — Northgate Capital", "tabTitle": "Jakob Rein", "favicon": "J", "faviconColor": "#1b3a6b", "host": "forbes.fr", "url": "forbes.fr/portrait/jakob-rein", "file": "portraits/portrait_jakob_rein.html"}]; }
-if (!window.LUMIO_DATA.desktopIcons) { window.LUMIO_DATA.desktopIcons = [{"app": "finder", "folder": "mission", "label": "Mission", "kind": "folder"}, {"app": "finder", "folder": "portraits", "label": "Portraits équipe", "kind": "folder"}, {"app": "mail", "label": "Mail", "kind": "app"}, {"app": "slack", "label": "Slack", "kind": "app"}, {"app": "notepad", "label": "Mes notes.txt", "kind": "app"}]; }
-if (!window.LUMIO_DATA.voiceMemos || !window.LUMIO_DATA.voiceMemos.length) { window.LUMIO_DATA.voiceMemos = [{"title": "Débrief RDV — partenaire stratégique", "author": "Camille Ott", "role": "Responsable partenariats B2B", "date": "Mars 2025", "context": "mémo dicté après réunion", "durationSec": 44, "transcript": "Réunion ce matin avec le partenaire clé. Le message principal : ils veulent avancer, mais pas sans voir la certification MDR progresser. Côté budget, la fourchette est réaliste — ils sont prêts à discuter. Ce qui bloque, c'est la souveraineté des données : hébergement France, audit annuel, accès self-service. Je leur ai dit qu'on pouvait s'engager sur ce point d'ici fin mars. À valider avec Théo avant que je confirme."}, {"title": "Note terrain — signaux B2B semaine", "author": "Camille Ott", "role": "Responsable partenariats B2B", "date": "Avril 2025", "context": "mémo dicté en déplacement", "durationSec": 36, "transcript": "Trois signaux forts cette semaine. Un : les DSI bloquent systématiquement sur RGPD dès qu'on parle de wearable — sans hébergement local certifié, on ne passe pas. Deux : le sujet est remonté au niveau comité de direction dans deux entreprises sur trois — la décision n'est plus RH, elle est stratégique. Trois : les mutuelles commencent à nous solliciter directement pour des offres packagées. C'est un canal qu'on n'avait pas prévu et qui mérite qu'on y consacre du temps."}]; }
-
 window.PAC_CONFIG = {
   "bloc": "bc3",
-  accroche_namescreen: {
-    "subtitle": "Piloter le projet digital",
-    "role": "consultant·e digital externe",
-    "intro": "Tu es {{STUDENT}}, consultant·e digital chez Lumio Health pour piloter l'Opération Pulse — la refonte de la plateforme client. Méthodes de conduite de projet, communication entre parties prenantes, contrôle des phases : tu produis le pilotage du projet digital (E3).",
-    "ratio_label": "3 semaines dans la vraie vie",
-    "regles": [
-      {
-        "ico": "📄",
-        "txt": "Tout ce que tu sais, c'est dans les documents projet du poste de mission."
-      },
-      {
-        "ico": "🤐",
-        "txt": "Le jury évalue ta méthode de pilotage, ta gestion des parties prenantes et ton suivi des phases."
-      },
-      {
-        "ico": "💬",
-        "txt": "Quand tu as une décision de pilotage solide → Slack → ton commanditaire. Sa réaction débloque la suite."
-      }
-    ]
-  },
   "titre": "Piloter un projet digital au service d'un commanditaire",
   "epreuve": "E3. Pilotage d'un projet digital",
   "deadline": "27 septembre 2024",
@@ -927,3 +915,10 @@ window.PAC_CONFIG = {
   "noteReflexiveMinMots": 100
 };
 window.PASS_CONFIG = window.PAC_CONFIG;
+
+// [PATCH] Correction bug #1 — voiceMemos fallback pour app-voice.jsx
+// Ces PAC n'utilisent pas l'app Mémos vocaux comme source narrative principale
+// → tableau vide pour éviter le crash au chargement
+if (window.LUMIO_DATA && !window.LUMIO_DATA.voiceMemos && !window.LUMIO_DATA.camilleVerbatims) {
+  window.LUMIO_DATA.voiceMemos = [];
+}
