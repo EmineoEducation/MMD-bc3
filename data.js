@@ -688,7 +688,36 @@ window.LUMIO_DATA = {
     "headline": "Bien-être au travail : la bataille des plateformes SaaS s'accélère avant VivaTech, les retardataires sanctionnés par le marché",
     "chapeau": "Trois nouveaux acteurs européens — dont le britannique Moodable et l'allemand Kenjo Health — annoncent ce lundi des levées de fonds combinées de 47 millions d'euros pour refondre leurs interfaces et conquérir les directions RH françaises avant le premier trimestre 2025. La fenêtre de tir se referme : les grandes entreprises du CAC 40 finalisent leurs appels d'offres en décembre. Les outsiders qui n'auront pas une plateforme aboutie et accessible à présenter à VivaTech Paris en janvier risquent simplement de ne pas exister aux yeux des acheteurs.",
     "body": "Le marché français des outils de mesure et de gestion du stress en entreprise, estimé à 340 millions d'euros en 2024 par le cabinet Xerfi, entre dans une phase de consolidation brutale. Selon une étude publiée ce matin par l'Observatoire de la QVT Numérique, 68 % des DRH interrogés déclarent vouloir changer de solution logicielle d'ici mars 2025, invoquant des interfaces vieillissantes, un manque de conformité RGAA et des tableaux de bord jugés insuffisamment lisibles pour leurs équipes managériales. 'Les acheteurs ne veulent plus de preuves de concept ou de démos bêta. Ils veulent du produit fini, auditable, accessible à tous les profils collaborateurs', résume Hélène Coursier, analyste senior chez Xerfi. Dans ce contexte, VivaTech Paris — dont l'édition de janvier 2025 réunira pour la première fois un pavillon Health & Work dédié — est unanimement désigné comme le rendez-vous décisif. Les acteurs qui s'y présenteront avec une plateforme complète et stabilisée capteront la visibilité nécessaire pour signer les contrats-cadres du premier semestre. Les autres, selon plusieurs investisseurs interrogés, 'passeront une saison difficile'. Northgate Capital, fonds anglo-saxon actif sur plusieurs dossiers medtech français, a d'ores et déjà indiqué à ses participations qu'il n'entendait pas financer de nouveaux cycles de développement au-delà de décembre 2024 sans livrable démontrable. La pression sur les équipes produit n'a jamais été aussi forte."
-  }
+  },
+  "voiceMemos": [
+    {
+      "title": "Sprint 1 — retour d'expérience équipe",
+      "author": "Théo Marczak",
+      "role": "CEO Lumio Health",
+      "date": "7 avril 2025",
+      "context": "mémo dicté après le COPIL hebdo",
+      "durationSec": 53,
+      "transcript": "On sort du premier COPIL Pulse. Le sprint 1 a livré la maquette du dashboard, mais on a déjà deux jours de retard sur le module d'alertes. Le problème, c'est que l'équipe dev n'avait pas les specs RGAA dès le départ — ils ont codé le front sans prendre en compte les contrastes et la navigation clavier. Résultat : il va falloir reprendre une partie du travail. Je veux que le prochain sprint intègre les critères d'accessibilité dans la définition de done, pas en phase de recette. Et je veux un point écrit chaque vendredi, pas juste un standup oral."
+    },
+    {
+      "title": "Audit RGAA — on ne peut pas livrer en l'état",
+      "author": "Yassine Morel",
+      "role": "Content Manager",
+      "date": "18 avril 2025",
+      "context": "mémo dicté après lecture du rapport d'audit",
+      "durationSec": 47,
+      "transcript": "Je viens de parcourir le rapport d'audit accessibilité du sprint 3. Quatorze non-conformités de niveau AA. Quatorze. Les contrastes de texte sur fond sombre sont en dessous du ratio minimum, la navigation au clavier est cassée sur le module de paramétrage, et il n'y a aucun attribut ARIA sur les graphiques. Northgate a une obligation légale RGAA — si on livre en l'état, ils ne peuvent tout simplement pas déployer. Ce n'est pas un nice-to-have. C'est un bloquant contractuel. Il faut que ce soit clair dans le plan de remédiation."
+    },
+    {
+      "title": "Semaine 12 — signal d'alerte budget et délai",
+      "author": "Camille Ott",
+      "role": "Responsable partenariats B2B",
+      "date": "25 mai 2025",
+      "context": "mémo dicté en sortie de réunion client",
+      "durationSec": 44,
+      "transcript": "Appel avec le chef de projet côté Northgate ce matin. Ils ont vu le dashboard semaine 12 — statut rouge sur les délais, orange sur le budget. Leur ton a changé. Ils demandent maintenant un comité de pilotage extraordinaire avec Théo avant la fin du mois. Si on ne montre pas un plan de remédiation crédible avec des jalons intermédiaires vérifiables, ils activeront la clause de revue contractuelle. Ce n'est plus de la négociation commerciale, c'est de la gestion de crise. Il faut qu'on ait un plan béton avant ce comité."
+    }
+  ]
 };
 
 window.PAC_CONFIG = {
